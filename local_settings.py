@@ -14,7 +14,7 @@ number = 0
 ####
 All = 1325056
 ####
-with open('SVNBook.pxml resultNoText.txt', 'r', encoding = 'utf-8') as file:
+with open('SVNBook.pxml result.txt', 'r', encoding = 'utf-8') as file:
     for line in file:
         if re.fullmatch("========================= CLASS #\d+ =============================\n", line):
             classes += 1
