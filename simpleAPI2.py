@@ -3,6 +3,7 @@ from typing import Iterator, List, Set
 from nltk.tokenize import sent_tokenize as nltk_sent_tokenize
 from nltk.corpus import stopwords
 from nltk import word_tokenize as nltk_word_tokenize
+from nltk import WordNetLemmatizer
 from nltk.util import trigrams  # skipgrams(_, n, k); n - deg, k - skip dist
 
 import re
@@ -40,10 +41,14 @@ def remove_stops(seq: Iterator[str]) -> Iterator[str]:
 def wordsToStemmed(sent: Iterator[str]) -> List[str]:
     return [Sentence.stemmer.stem(word) for word in sent]
 
+def wordsToLemmed(sent: Iterator[str]) -> List[str]:
+    return [Sentence.lemmater.lemmatize(word) for word in sent]
+
 
 # Kernel classes
 class Sentence:
-    stemmer = Stemmer()
+    # stemmer = Stemmer()
+    lemmater = WordNetLemmatizer()
 
     def __init__(self, index: int, sent: str, start: int, end: int):
         self.index = index
