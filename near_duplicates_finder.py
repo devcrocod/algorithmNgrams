@@ -36,7 +36,7 @@ for curSent in sents:
         classes[bestClass].sents.append(curSent)
 
 cur = 0
-with open(name + " all via lemma result.txt", "w", encoding=text.encoding) as file:
+with open(name + " result.txt", "w", encoding=text.encoding) as file:
     for curClass in classes:
         if len(curClass.sents) == 1:
             continue

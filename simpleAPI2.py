@@ -41,6 +41,7 @@ def remove_stops(seq: Iterator[str]) -> Iterator[str]:
 def wordsToStemmed(sent: Iterator[str]) -> List[str]:
     return [Sentence.stemmer.stem(word) for word in sent]
 
+
 def wordsToLemmed(sent: Iterator[str]) -> List[str]:
     return [Sentence.lemmater.lemmatize(word) for word in sent]
 

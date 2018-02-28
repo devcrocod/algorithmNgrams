@@ -14,7 +14,7 @@ number = 0
 ####
 All = 1325056
 ####
-with open('SVNBook.pxml result.txt', 'r', encoding = 'utf-8') as file:
+with open('SVNBook.pxml result.txt', 'r', encoding='utf-8') as file:
     for line in file:
         if re.fullmatch("========================= CLASS #\d+ =============================\n", line):
             classes += 1
@@ -41,4 +41,5 @@ print("""1) количество классов в документе %d
 4) среднее количество символов в классе %f
 5) количество предложений %f
 6) количество символов, покрытых повторами %d
-7) процент покрытия повторами %f""" % (classes, sents / classes, words / classes, symbols / classes, sents, number, number / All))
+7) процент покрытия повторами %f""" % (
+    classes, sents / classes, words / classes, symbols / classes, sents, number, number / All))
