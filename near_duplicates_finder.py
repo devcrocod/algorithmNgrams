@@ -11,7 +11,7 @@ def intersect(sent1, sent2):
     return [s for s in sent1 if s in sent2]
 
 
-name = "SVNBook.pxml"
+name = "War and Peace (Book 1-4).txt"
 
 text = Text("resources/" + name)
 sents = text.sents
@@ -36,7 +36,7 @@ for curSent in sents:
         classes[bestClass].sents.append(curSent)
 
 cur = 0
-with open(name + " result.txt", "w", encoding=text.encoding) as file:
+with open(name + " all via stemmed result.txt", "w", encoding=text.encoding) as file:
     for curClass in classes:
         if len(curClass.sents) == 1:
             continue

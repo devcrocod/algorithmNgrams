@@ -1,0 +1,982 @@
+========================= CLASS #1 =============================
+(22) {10019} [10032]: “Don’t tease!
+(667) {82990} [83007]: “Don’t touch him!
+(2639) {303823} [303838]: “Don’t trouble.
+(6950) {808382} [808389]: “Don’t!
+(6951) {808383} [808389]: Don’t!
+(7777) {890924} [890940]: “Don’t, Natásha!
+*****************************************************************
+========================= CLASS #2 =============================
+(30) {10957} [11069]: In the midst of a conversation on political matters Anna Pávlovna burst out: “Oh, don’t speak to me of Austria.
+(473) {63705} [63742]: “Oh, don’t speak of his going, don’t!
+*****************************************************************
+========================= CLASS #3 =============================
+(31) {11070} [11162]: Perhaps I don’t understand things, but Austria never has wished, and does not wish, for war.
+(444) {61738} [61751]: I don’t know.
+(478) {64406} [64435]: I don’t understand,” said he.
+(2371) {274439} [274480]: “I don’t understand!” said Prince Andrew.
+(5271) {602833} [602847]: “I don’t know.
+*****************************************************************
+========================= CLASS #4 =============================
+(78) {15433} [15468]: “I can’t help it,” said the prince.
+(4336) {497264} [497277]: I can’t walk.
+(5370) {615080} [615097]: I can’t tell you.
+*****************************************************************
+========================= CLASS #5 =============================
+(83) {15859} [15904]: “What would you have me do?” he said at last.
+(7657) {880040} [880051]: ?” he said.
+*****************************************************************
+========================= CLASS #6 =============================
+(87) {16281} [16327]: “And why are children born to such men as you?
+(3097) {352638} [352665]: “And why are they stopping?
+*****************************************************************
+========================= CLASS #7 =============================
+(92) {16614} [16710]: It can’t be helped!” He said no more, but expressed his resignation to cruel fate by a gesture.
+(7759) {889585} [889605]: “It can’t be helped!
+*****************************************************************
+========================= CLASS #8 =============================
+(96) {16978} [17226]: She is a relation of yours, Princess Mary Bolkónskaya.” Prince Vasíli did not reply, though, with the quickness of memory and perception befitting a man of the world, he indicated by a movement of the head that he was considering this information.
+(3766) {427115} [427137]: Kutúzov did not reply.
+*****************************************************************
+========================= CLASS #9 =============================
+(98) {17377} [17605]: And,” he went on after a pause, “what will it be in five years, if he goes on like this?” Presently he added: “That’s what we fathers have to put up with.... Is this princess of yours rich?” “Her father is very rich and stingy.
+(737) {90138} [90151]: That’s right!
+(2810) {325382} [325397]: That’s nothing.
+(4259) {488789} [488801]: That’s good!
+(6727) {777346} [777359]: That’s funny!
+*****************************************************************
+========================= CLASS #10 =============================
+(100) {17631} [17810]: He is the well-known Prince Bolkónski who had to retire from the army under the late Emperor, and was nicknamed ‘the King of Prussia.’ He is very clever but eccentric, and a bore.
+(3906) {445312} [445330]: He is the Emperor!
+*****************************************************************
+========================= CLASS #11 =============================
+(105) {18238} [18495]: She is rich and of good family and that’s all I want.” And with the familiarity and easy grace peculiar to him, he raised the maid of honor’s hand to his lips, kissed it, and swung it to and fro as he lay back in his armchair, looking in another direction.
+(5911) {687734} [687758]: But that’s all nonsense.
+*****************************************************************
+========================= CLASS #12 =============================
+(106) {18497} [18643]: “Attendez,” said Anna Pávlovna, reflecting, “I’ll speak to Lise, young Bolkónski’s wife, this very evening, and perhaps the thing can be arranged.
+(710) {85709} [85724]: “I’ll drink it!
+*****************************************************************
+========================= CLASS #13 =============================
+(132) {22643} [22730]: “What a delightful woman this little princess is!” said Prince Vasíli to Anna Pávlovna.
+(3057) {348144} [348159]: “What a fellow!
+(3387) {385564} [385581]: “What a calamity!
+(5303) {607455} [607469]: “What a style!
+*****************************************************************
+========================= CLASS #14 =============================
+(149) {24991} [25200]: And having got rid of this young man who did not know how to behave, she resumed her duties as hostess and continued to listen and watch, ready to help at any point where the conversation might happen to flag.
+(6731) {777636} [777675]: He did not know how to behave with her.
+*****************************************************************
+========================= CLASS #15 =============================
+(169) {27957} [27966]: “Ah, yes!
+(6674) {773201} [773210]: “Ah, yes!
+*****************************************************************
+========================= CLASS #16 =============================
+(191) {31020} [31106]: “Now I am all right,” she said, and asking the vicomte to begin, she took up her work.
+(1657) {190819} [190831]: “Now I know!
+*****************************************************************
+========================= CLASS #17 =============================
+(196) {31892} [32067]: “It’s not going to be a ghost story?” said he, sitting down beside the princess and hastily adjusting his lorgnette, as if without this instrument he could not begin to speak.
+(1626) {187813} [187828]: “It’s splendid!
+(2813) {325529} [325547]: It’s not a secret.
+(3716) {422157} [422171]: It’s terrible!
+(4252) {488500} [488513]: It’s burning!
+(5934) {689179} [689192]: “It’s dark...
+*****************************************************************
+========================= CLASS #18 =============================
+(197) {32069} [32149]: “Why no, my dear fellow,” said the astonished narrator, shrugging his shoulders.
+(4321) {495738} [495777]: “Good-by, my dear fellow,” said Túshin.
+*****************************************************************
+========================= CLASS #19 =============================
+(221) {35718} [35871]: He turned away from her with a grimace that distorted his handsome face, kissed Anna Pávlovna’s hand, and screwing up his eyes scanned the whole company.
+(7711) {884608} [884638]: Nicholas turned away from her.
+*****************************************************************
+========================= CLASS #20 =============================
+(226) {36809} [36823]: “There now!...
+(2454) {283917} [283928]: “There now!
+(3572) {407554} [407565]: “There now!
+(3822) {435940} [435959]: “There now, Prince!
+(5242) {600329} [600340]: “There now!
+*****************************************************************
+========================= CLASS #21 =============================
+(257) {39986} [40242]: “I have never yet asked you for anything and I never will again, nor have I ever reminded you of my father’s friendship for you; but now I entreat you for God’s sake to do this for my son—and I shall always regard you as a benefactor,” she added hurriedly.
+(4333) {497183} [497208]: “Captain, for God’s sake!
+*****************************************************************
+========================= CLASS #22 =============================
+(268) {41390} [41669]: “My dear Anna Mikháylovna,” said he with his usual familiarity and weariness of tone, “it is almost impossible for me to do what you ask; but to prove my devotion to you and how I respect your father’s memory, I will do the impossible—your son shall be transferred to the Guards.
+(2379) {275073} [275094]: I will do everything.
+*****************************************************************
+========================= CLASS #23 =============================
+(276) {42048} [42074]: “No, I won’t promise that.
+(2873) {330616} [330633]: I won’t allow it.
+*****************************************************************
+========================= CLASS #24 =============================
+(280) {42304} [42430]: My dear benefactor...” “Papa,” said his beautiful daughter in the same tone as before, “we shall be late.” “Well, au revoir!
+(3530) {403346} [403380]: Oh!” “Well, au revoir, Bolkónski!
+*****************************************************************
+========================= CLASS #25 =============================
+(287) {43120} [43413]: CHAPTER V “And what do you think of this latest comedy, the coronation at Milan?” asked Anna Pávlovna, “and of the comedy of the people of Genoa and Lucca laying their petitions before Monsieur Buonaparte, and Monsieur Buonaparte sitting on a throne and granting the petitions of the nations?
+(1160) {134813} [134862]: And what do you think of the Boulogne expedition?
+(5423) {620738} [620767]: And what do you think, Count?
+*****************************************************************
+========================= CLASS #26 =============================
+(306) {45353} [45910]: Pierre wished to make a remark, for the conversation interested him, but Anna Pávlovna, who had him under observation, interrupted: “The Emperor Alexander,” said she, with the melancholy which always accompanied any reference of hers to the Imperial family, “has declared that he will leave it to the French people themselves to choose their own form of government; and I believe that once free from the usurper, the whole nation will certainly throw itself into the arms of its rightful king,” she concluded, trying to be amiable to the royalist emigrant.
+(5663) {654757} [654770]: “The Emperor!
+*****************************************************************
+========================= CLASS #27 =============================
+(313) {46760} [46904]: “‘I opened my antechambers and they crowded in.’ I do not know how far he was justified in saying so.” “Not in the least,” replied the vicomte.
+(4900) {564905} [564922]: Not in the least!
+*****************************************************************
+========================= CLASS #28 =============================
+(327) {48955} [48977]: “He could not do that.
+(7350) {848349} [848367]: He could not weep.
+*****************************************************************
+========================= CLASS #29 =============================
+(353) {51654} [51670]: All were silent.
+(638) {80591} [80607]: All were silent.
+(4437) {507250} [507266]: All were silent.
+*****************************************************************
+========================= CLASS #30 =============================
+(367) {53157} [53414]: She said, ‘Girl,’ to the maid, ‘put on a livery, get up behind the carriage, and come with me while I make some calls.’” Here Prince Hippolyte spluttered and burst out laughing long before his audience, which produced an effect unfavorable to the narrator.
+(410) {58472} [58501]: Hippolyte burst out laughing.
+*****************************************************************
+========================= CLASS #31 =============================
+(394) {56538} [56622]: “I am very glad I did not go to the ambassador’s,” said Prince Hippolyte “—so dull—.
+(4556) {522335} [522350]: I am very glad.
+*****************************************************************
+========================= CLASS #32 =============================
+(412) {58593} [58811]: “I pity the poor husband, that little officer who gives himself the airs of a monarch.” Hippolyte spluttered again, and amid his laughter said, “And you were saying that the Russian ladies are not equal to the French?
+(2906) {333247} [333256]: “And you?
+*****************************************************************
+========================= CLASS #33 =============================
+(414) {59138} [59174]: “What have you done to Mlle Schérer?
+(2475) {286440} [286466]: “What have you been after?
+*****************************************************************
+========================= CLASS #34 =============================
+(417) {59333} [59403]: He lifted his eager face to Prince Andrew, smiled, and waved his hand.
+(441) {61570} [61602]: Prince Andrew smiled ironically.
+*****************************************************************
+========================= CLASS #35 =============================
+(422) {59794} [59891]: Are you going to be a guardsman or a diplomatist?” asked Prince Andrew after a momentary silence.
+(3569) {407453} [407480]: What?” asked Prince Andrew.
+*****************************************************************
+========================= CLASS #36 =============================
+(461) {62917} [63005]: “I don’t understand it; I don’t in the least understand why men can’t live without wars.
+(606) {77528} [77548]: “I don’t understand.
+*****************************************************************
+========================= CLASS #37 =============================
+(471) {63551} [63667]: What do you think?” Pierre looked at his friend and, noticing that he did not like the conversation, gave no reply.
+(5779) {670512} [670541]: What do you think he replied?
+(6575) {764383} [764401]: What do you think?
+*****************************************************************
+========================= CLASS #38 =============================
+(477) {64369} [64405]: “What is it you are afraid of, Lise?
+(1449) {165818} [165829]: What is it?
+(2411) {277418} [277430]: “What is it?
+(3120) {354732} [354746]: “What is this?
+(6333) {737980} [737991]: What is it?
+*****************************************************************
+========================= CLASS #39 =============================
+(490) {65600} [65747]: “Why should I mind Monsieur Pierre being here?” exclaimed the little princess suddenly, her pretty face all at once distorted by a tearful grimace.
+(6304) {734897} [734921]: “Why should I envy them?
+*****************************************************************
+========================= CLASS #40 =============================
+(492) {65819} [65843]: What have I done to you?
+(1461) {167212} [167236]: What have I done to her?
+*****************************************************************
+========================= CLASS #41 =============================
+(510) {67324} [67454]: “Mon Dieu, mon Dieu!” she muttered, and lifting her dress with one hand she went up to her husband and kissed him on the forehead.
+(7239) {836879} [836889]: “Mon Dieu!
+*****************************************************************
+========================= CLASS #42 =============================
+(528) {68976} [69022]: But what’s the good?...” and he waved his arm.
+(3723) {422692} [422723]: But what’s the matter with you?
+*****************************************************************
+========================= CLASS #43 =============================
+(557) {72434} [72470]: “What’s the use of talking about me?
+(2725) {316888} [316907]: “What’s the matter?
+(6246) {727353} [727366]: “What’s this?
+*****************************************************************
+========================= CLASS #44 =============================
+(560) {72614} [72711]: “But what is there to say about me?” said Pierre, his face relaxing into a careless, merry smile.
+(3166) {359271} [359289]: And what is there?
+*****************************************************************
+========================= CLASS #45 =============================
+(577) {74232} [74404]: He asked me for tonight, but I won’t go.” “You give me your word of honor not to go?” “On my honor!” CHAPTER IX It was past one o’clock when Pierre left his friend.
+(5843) {680399} [680420]: It was past midnight.
+*****************************************************************
+========================= CLASS #46 =============================
+(583) {74938} [74985]: “I should like to go to Kurágin’s,” thought he.
+(587) {75754} [75775]: He went to Kurágin’s.
+*****************************************************************
+========================= CLASS #47 =============================
+(589) {75944} [76113]: There was no one in the anteroom; empty bottles, cloaks, and overshoes were lying about; there was a smell of alcohol, and sounds of voices and shouting in the distance.
+(4172) {479962} [479984]: There was no one near.
+(6585) {765145} [765174]: There was no one in the hall.
+*****************************************************************
+========================= CLASS #48 =============================
+(601) {77095} [77123]: “Wait a bit, you fellows....
+(646) {81445} [81466]: “Wait a bit, Kurágin.
+*****************************************************************
+========================= CLASS #49 =============================
+(604) {77180} [77484]: Another voice, from a man of medium height with clear blue eyes, particularly striking among all these drunken voices by its sober ring, cried from the window: “Come here; part the bets!” This was Dólokhov, an officer of the Semënov regiment, a notorious gambler and duelist, who was living with Anatole.
+(5643) {652896} [652915]: “Come here, Wostóv.
+*****************************************************************
+========================= CLASS #50 =============================
+(607) {77549} [77605]: What’s it all about?” “Wait a bit, he is not drunk yet!
+(3578) {408003} [408024]: “What’s it all about?
+*****************************************************************
+========================= CLASS #51 =============================
+(611) {78127} [78309]: “Go on, you must drink it all,” said Anatole, giving Pierre the last glass, “or I won’t let you go!” “No, I won’t,” said Pierre, pushing Anatole aside, and he went up to the window.
+(6277) {731624} [731631]: “Go on!
+*****************************************************************
+========================= CLASS #52 =============================
+(641) {80862} [80873]: “All right.
+(944) {112466} [112477]: “All right!
+(2625) {302907} [302918]: “All right.
+(7643) {878953} [878964]: “All right!
+*****************************************************************
+========================= CLASS #53 =============================
+(658) {82314} [82482]: Pressing against both sides of the window, he adjusted himself on his seat, lowered his hands, moved a little to the right and then to the left, and took up the bottle.
+(3061) {348355} [348372]: Keep to the left!
+*****************************************************************
+========================= CLASS #54 =============================
+(697) {85157} [85200]: Devil take you!” came from different sides.
+(3100) {352738} [352753]: Devil take you!
+*****************************************************************
+========================= CLASS #55 =============================
+(716) {86068} [86162]: I’ll take your bet tomorrow, but now we are all going to ——’s.” “Come on then,” cried Pierre.
+(717) {86163} [86175]: “Come on!...
+*****************************************************************
+========================= CLASS #56 =============================
+(727) {87780} [87917]: The countess was a woman of about forty-five, with a thin Oriental type of face, evidently worn out with childbearing—she had had twelve.
+(5293) {605718} [605742]: The countess was crying.
+*****************************************************************
+========================= CLASS #57 =============================
+(732) {88374} [88655]: “I am very, very grateful to you, mon cher,” or “ma chère”—he called everyone without exception and without the slightest variation in his tone, “my dear,” whether they were above or below him in rank—“I thank you for myself and for our two dear ones whose name day we are keeping.
+(2582) {298066} [298083]: “I thank you all!
+(3394) {385993} [386005]: I thank you!
+*****************************************************************
+========================= CLASS #58 =============================
+(748) {91389} [91630]: The conversation was on the chief topic of the day: the illness of the wealthy and celebrated beau of Catherine’s day, Count Bezúkhov, and about his illegitimate son Pierre, the one who had behaved so improperly at Anna Pávlovna’s reception.
+(1407) {162249} [162277]: The conversation was hushed.
+*****************************************************************
+========================= CLASS #59 =============================
+(749) {91632} [91685]: “I am so sorry for the poor count,” said the visitor.
+(7794) {892034} [892056]: I am so sorry for him!
+*****************************************************************
+========================= CLASS #60 =============================
+(764) {93292} [93310]: “Oh, how dreadful!
+(1071) {125018} [125033]: “Oh, how awful!
+*****************************************************************
+========================= CLASS #61 =============================
+(771) {93753} [93981]: They wanted to introduce him to me, but I quite declined: I have my daughters to consider.” “Why do you say this young man is so rich?” asked the countess, turning away from the girls, who at once assumed an air of inattention.
+(5356) {614301} [614322]: “Why do you shout so?
+*****************************************************************
+========================= CLASS #62 =============================
+(850) {104007} [104050]: “All right, all right!” said the old count.
+(5567) {642471} [642493]: “All right, all right.
+*****************************************************************
+========================= CLASS #63 =============================
+(866) {105305} [105591]: “Yes,” said the countess when the brightness these young people had brought into the room had vanished; and as if answering a question no one had put but which was always in her mind, “and how much suffering, how much anxiety one has had to go through that we might rejoice in them now!
+(7457) {859843} [859863]: “Yes,” said Natásha.
+*****************************************************************
+========================= CLASS #64 =============================
+(883) {107556} [107705]: With her elder sister I was stricter.” “Yes, I was brought up quite differently,” remarked the handsome elder daughter, Countess Véra, with a smile.
+(1633) {188283} [188302]: “Yes, I was a fool!
+*****************************************************************
+========================= CLASS #65 =============================
+(889) {108378} [108398]: “Well, what of that?
+(1191) {137946} [137964]: “Well, what of it!
+*****************************************************************
+========================= CLASS #66 =============================
+(890) {108399} [108468]: She’s turned out splendidly all the same,” he added, winking at Véra.
+(2378) {275059} [275072]: She’s pretty!
+*****************************************************************
+========================= CLASS #67 =============================
+(922) {110840} [110901]: “Borís, come here,” said she with a sly and significant look.
+(1441) {164932} [164964]: Borís, come here,” said Natásha.
+*****************************************************************
+========================= CLASS #68 =============================
+(930) {111319} [111338]: “Don’t you want to?
+(2094) {246358} [246375]: “Don’t you, Lise?
+(3704) {421541} [421556]: Don’t you hear?
+(4598) {528098} [528117]: Don’t you think so?
+(6467) {752559} [752574]: Don’t you hear?
+*****************************************************************
+========================= CLASS #69 =============================
+(956) {113539} [113577]: Don’t you see you are not wanted here?
+(6569) {764027} [764041]: Don’t you see?
+*****************************************************************
+========================= CLASS #70 =============================
+(993) {116935} [117002]: “Ah, my dear,” said the countess, “my life is not all roses either.
+(1677) {193514} [193534]: “Ah, my dear friend!
+(3404) {386720} [386740]: “Ah, my dear prince!
+*****************************************************************
+========================= CLASS #71 =============================
+(994) {117003} [117073]: Don’t I know that at the rate we are living our means won’t last long?
+(2130) {249682} [249694]: I know that.
+(4636) {532553} [532561]: Don’t I?
+*****************************************************************
+========================= CLASS #72 =============================
+(1007) {118097} [118187]: “You see yours is already an officer in the Guards, while my Nicholas is going as a cadet.
+(1418) {162827} [162836]: “You see!
+*****************************************************************
+========================= CLASS #73 =============================
+(1029) {120009} [120137]: It’s a burden to him, and Bóry’s life is only just beginning....” “Surely he will leave something to Borís,” said the countess.
+(3018) {343943} [343961]: It’s a fine place!
+*****************************************************************
+========================= CLASS #74 =============================
+(1057) {123659} [124018]: Just as the mother and son, having reached the middle of the hall, were about to ask their way of an elderly footman who had sprung up as they entered, the bronze handle of one of the doors turned and Prince Vasíli came out—wearing a velvet coat with a single star on his breast, as was his custom when at home—taking leave of a good-looking, dark-haired man.
+(1855) {217638} [217662]: Prince Vasíli came next.
+*****************************************************************
+========================= CLASS #75 =============================
+(1165) {135299} [135354]: “I know nothing about it and have not thought about it.
+(7694) {883702} [883729]: They know nothing about it!
+*****************************************************************
+========================= CLASS #76 =============================
+(1182) {137447} [137519]: “No, but I say,” said Pierre, calming down, “you are a wonderful fellow!
+(7472) {860888} [860904]: “No, but I must.
+*****************************************************************
+========================= CLASS #77 =============================
+(1189) {137806} [137852]: I am very glad to have made your acquaintance.
+(5202) {595915} [595947]: I am very glad to have seen you.
+*****************************************************************
+========================= CLASS #78 =============================
+(1190) {137853} [137945]: It’s queer,” he added after a pause, “that you should have suspected me!” He began to laugh.
+(3504) {400579} [400597]: He began to laugh.
+*****************************************************************
+========================= CLASS #79 =============================
+(1193) {138030} [138085]: “Do you know, I have not once been in to see the count.
+(1596) {183330} [183365]: Do you know I have sent for Pierre?
+*****************************************************************
+========================= CLASS #80 =============================
+(1199) {138644} [138871]: After he had gone Pierre continued pacing up and down the room for a long time, no longer piercing an imaginary foe with his imaginary sword, but smiling at the remembrance of that pleasant, intelligent, and resolute young man.
+(7699) {884005} [884048]: Nicholas began pacing up and down the room.
+*****************************************************************
+========================= CLASS #81 =============================
+(1218) {140237} [140340]: “What is the matter with you, my dear?” she said crossly to the maid who kept her waiting some minutes.
+(1450) {165830} [165852]: What is the matter?...
+(7226) {835930} [835971]: “What is the matter with you, my darling?
+(7691) {883509} [883541]: “What is the matter?” she asked.
+*****************************************************************
+========================= CLASS #82 =============================
+(1228) {141058} [141178]: “What are your commands, little countess?” “You see, my dear... What’s that mess?” she said, pointing to his waistcoat.
+(2071) {244088} [244099]: my dear!...
+*****************************************************************
+========================= CLASS #83 =============================
+(1229) {141179} [141233]: “It’s the sauté, most likely,” she added with a smile.
+(6184) {721151} [721170]: “It’s the enemy?...
+*****************************************************************
+========================= CLASS #84 =============================
+(1243) {142442} [142516]: “I was forgetting... Do you wish it brought at once?” “Yes, yes; just so!
+(6766) {783551} [783568]: I was forgetting.
+*****************************************************************
+========================= CLASS #85 =============================
+(1255) {143330} [143582]: I was only there a few moments and hardly said a word...” “Annette, for heaven’s sake don’t refuse me,” the countess began, with a blush that looked very strange on her thin, dignified, elderly face, and she took the money from under the handkerchief.
+(3670) {419075} [419095]: For heaven’s sake...
+(4841) {557498} [557529]: Forgive me for heaven’s sake...
+*****************************************************************
+========================= CLASS #86 =============================
+(1269) {145332} [145488]: One of them was a sallow, clean-shaven civilian with a thin and wrinkled face, already growing old, though he was dressed like a most fashionable young man.
+(4405) {503000} [503021]: One of them stumbled.
+*****************************************************************
+========================= CLASS #87 =============================
+(1314) {151354} [151400]: “Márya Dmítrievna?” came her voice from there.
+(1422) {163081} [163099]: “Márya Dmítrievna!
+*****************************************************************
+========================= CLASS #88 =============================
+(1334) {153235} [153247]: “A fine lad!
+(1336) {153257} [153271]: A fine lad!...
+*****************************************************************
+========================= CLASS #89 =============================
+(1366) {157520} [157600]: CHAPTER XIX At the men’s end of the table the talk grew more and more animated.
+(4270) {490569} [490606]: His face grew more and more animated.
+*****************************************************************
+========================= CLASS #90 =============================
+(1397) {161188} [161247]: “It’s all about the war,” the count shouted down the table.
+(7640) {878761} [878774]: “It’s all up!
+*****************************************************************
+========================= CLASS #91 =============================
+(1403) {161656} [161761]: “You won’t ask,” Natásha’s little brother was saying; “I know you won’t ask!” “I will,” replied Natásha.
+(5234) {599613} [599623]: You won’t?
+*****************************************************************
+========================= CLASS #92 =============================
+(1406) {162053} [162247]: “What is it?” asked the countess, startled; but seeing by her daughter’s face that it was only mischief, she shook a finger at her sternly with a threatening and forbidding movement of her head.
+(3566) {407257} [407280]: “What is it?” he asked.
+*****************************************************************
+========================= CLASS #93 =============================
+(1421) {162993} [163079]: Natásha saw there was nothing to be afraid of and so she braved even Márya Dmítrievna.
+(4730) {545989} [546012]: Then there was nothing.
+*****************************************************************
+========================= CLASS #94 =============================
+(1443) {165074} [165186]: Running into Sónya’s room and not finding her there, Natásha ran to the nursery, but Sónya was not there either.
+(5549) {639846} [639870]: Bolkónski was not there.
+*****************************************************************
+========================= CLASS #95 =============================
+(1454) {166195} [166264]: With an effort Sónya sat up and began wiping her eyes and explaining.
+(1482) {168974} [168987]: Sónya sat up.
+*****************************************************************
+========================= CLASS #96 =============================
+(1468) {168165} [168200]: “Sónya, don’t believe her, darling!
+(1469) {168201} [168219]: Don’t believe her!
+*****************************************************************
+========================= CLASS #97 =============================
+(1490) {169526} [169589]: “I feel so happy!” And she set off at a run along the passage.
+(7205) {833277} [833295]: I feel so strange.
+*****************************************************************
+========================= CLASS #98 =============================
+(1507) {171738} [171759]: “Well, really, Mamma!
+(1613) {186037} [186060]: “Well, really, Catiche!
+*****************************************************************
+========================= CLASS #99 =============================
+(1509) {171776} [172040]: What is there to be surprised at?” In the midst of the third écossaise there was a clatter of chairs being pushed back in the sitting room where the count and Márya Dmítrievna had been playing cards with the majority of the more distinguished and older visitors.
+(1528) {174747} [174796]: All were watching the count and Márya Dmítrievna.
+*****************************************************************
+========================= CLASS #100 =============================
+(1559) {179239} [179422]: “Dere has neffer been a gase,” a German doctor was saying to an aide-de-camp, “dat one liffs after de sird stroke.” “And what a well-preserved man he was!” remarked the aide-de-camp.
+(5305) {607554} [607571]: “And what a soul!
+*****************************************************************
+========================= CLASS #101 =============================
+(1609) {185440} [185550]: You must know, my dear, whether the will and letter were written, and whether they have been destroyed or not.
+(1648) {189724} [189738]: You must know.
+*****************************************************************
+========================= CLASS #102 =============================
+(1614) {186061} [186082]: Can’t you understand!
+(3101) {352754} [352769]: Can’t you wait?
+(6566) {763908} [763927]: Can’t you hurry up?
+*****************************************************************
+========================= CLASS #103 =============================
+(1654) {190084} [190327]: “That’s not the point, my dear.” “It’s that protégé of yours, that sweet Princess Drubetskáya, that Anna Mikháylovna whom I would not take for a housemaid... the infamous, vile woman!” “Do not let us lose any time...” “Ah, don’t talk to me!
+(3188) {361654} [361671]: That’s not wight!
+*****************************************************************
+========================= CLASS #104 =============================
+(1656) {190552} [190818]: I know it was then he wrote this vile, infamous paper, but I thought the thing was invalid.” “We’ve got to it at last—why did you not tell me about it sooner?” “It’s in the inlaid portfolio that he keeps under his pillow,” said the princess, ignoring his question.
+(2409) {277329} [277349]: “We’ve said good-by.
+*****************************************************************
+========================= CLASS #105 =============================
+(1805) {211403} [211677]: As soon as they saw Pierre and his companion they became silent, and Pierre thought he saw the princess hide something as she whispered: “I can’t bear the sight of that woman.” “Catiche has had tea served in the small drawing room,” said Prince Vasíli to Anna Mikháylovna.
+(4857) {559238} [559266]: “I can’t bear those old men!
+*****************************************************************
+========================= CLASS #106 =============================
+(1831) {215310} [215525]: I think he will not be out of place in a family consultation; is it not so, Prince?” “Why don’t you speak, cousin?” suddenly shrieked the princess so loud that those in the drawing room heard her and were startled.
+(2479) {286782} [286809]: “Well, why don’t you speak?
+(7565) {870825} [870856]: “Why don’t you play?” he asked.
+*****************************************************************
+========================= CLASS #107 =============================
+(1835) {215853} [215872]: Prince Vasíli rose.
+(5195) {595500} [595519]: Prince Vasíli rose.
+*****************************************************************
+========================= CLASS #108 =============================
+(1916) {225332} [225415]: “Yes, it’s from Julie,” replied the princess with a timid glance and a timid smile.
+(2901) {332769} [332793]: “Yes, it’s a nice purse.
+*****************************************************************
+========================= CLASS #109 =============================
+(1919) {225662} [225849]: “The third, I said the third!” cried the prince abruptly, pushing the letter away, and leaning his elbows on the table he drew toward him the exercise book containing geometrical figures.
+(2182) {257404} [257427]: Who?” cried the prince.
+*****************************************************************
+========================= CLASS #110 =============================
+(1922) {226489} [226858]: Whether it was the teacher’s fault or the pupil’s, this same thing happened every day: the princess’ eyes grew dim, she could not see and could not hear anything, but was only conscious of her stern father’s withered face close to her, of his breath and the smell of him, and could think only of how to get away quickly to her own room to make out the problem in peace.
+(7171) {830619} [830637]: Her eyes grew dim.
+*****************************************************************
+========================= CLASS #111 =============================
+(1923) {226859} [227109]: The old man was beside himself: moved the chair on which he was sitting noisily backward and forward, made efforts to control himself and not become vehement, but almost always did become vehement, scolded, and sometimes flung the exercise book away.
+(2404) {276892} [276915]: The old man was silent.
+*****************************************************************
+========================= CLASS #112 =============================
+(1968) {231810} [231829]: But enough of this!
+(1981) {233651} [233672]: But enough of gossip.
+*****************************************************************
+========================= CLASS #113 =============================
+(1974) {232826} [233029]: As for the past two years people have amused themselves by finding husbands for me (most of whom I don’t even know), the matchmaking chronicles of Moscow now speak of me as the future Countess Bezúkhova.
+(2255) {264011} [264027]: Why speak of me?
+*****************************************************************
+========================= CLASS #114 =============================
+(2050) {241830} [241965]: “Why, this is a palace!” she said to her husband, looking around with the expression with which people compliment their host at a ball.
+(4783) {551301} [551343]: “Still the same,” she said to her husband.
+*****************************************************************
+========================= CLASS #115 =============================
+(2052) {242099} [242124]: “Is that Mary practicing?
+(5599) {647198} [647210]: “Is that so?
+*****************************************************************
+========================= CLASS #116 =============================
+(2061) {242895} [242974]: Prince Andrew stopped and made a grimace, as if expecting something unpleasant.
+(2688) {311525} [311553]: Prince Andrew stopped short.
+*****************************************************************
+========================= CLASS #117 =============================
+(2069) {243878} [244081]: Prince Andrew evidently felt ill at ease, but to the two women it seemed quite natural that they should cry, and apparently it never entered their heads that it could have been otherwise at this meeting.
+(7559) {870156} [870180]: Rostóv felt ill at ease.
+*****************************************************************
+========================= CLASS #118 =============================
+(2095) {246376} [246420]: Take her to your room and I’ll go to Father.
+(7232) {836368} [836376]: I’ll go.
+*****************************************************************
+========================= CLASS #119 =============================
+(2102) {246785} [246981]: “The hours are the same, and the lathe, and also the mathematics and my geometry lessons,” said Princess Mary gleefully, as if her lessons in geometry were among the greatest delights of her life.
+(7284) {842568} [842599]: thank God!” said Princess Mary.
+*****************************************************************
+========================= CLASS #120 =============================
+(2114) {248312} [248438]: He made no reply on his father’s favorite topic—making fun of the military men of the day, and more particularly of Bonaparte.
+(7553) {869652} [869675]: Dólokhov made no reply.
+*****************************************************************
+========================= CLASS #121 =============================
+(2117) {248675} [248798]: You know me: I am busy from morning till night and abstemious, so of course I am well.” “Thank God,” said his son smiling.
+(4788) {551728} [551760]: “Thank God!” said Prince Vasíli.
+(7291) {843207} [843235]: “Thank God!” said the voice.
+*****************************************************************
+========================= CLASS #122 =============================
+(2132) {249862} [249878]: “What of Sweden?
+(4740) {546996} [547008]: “What of it?
+*****************************************************************
+========================= CLASS #123 =============================
+(2135) {250669} [250862]: The old prince did not evince the least interest during this explanation, but as if he were not listening to it continued to dress while walking about, and three times unexpectedly interrupted.
+(5094) {586234} [586270]: The old prince did not sleep either.
+*****************************************************************
+========================= CLASS #124 =============================
+(2156) {254265} [254370]: At that moment the great clock struck two and another with a shrill tone joined in from the drawing room.
+(5341) {612737} [612768]: At that moment the door opened.
+*****************************************************************
+========================= CLASS #125 =============================
+(2160) {254728} [254850]: “I’m glad, glad, to see you,” he said, looking attentively into her eyes, and then quickly went to his place and sat down.
+(6312) {735653} [735673]: “Have you?” he said.
+*****************************************************************
+========================= CLASS #126 =============================
+(2181) {257235} [257403]: “The past always seems good,” said he, “but did not Suvórov himself fall into a trap Moreau set him, and from which he did not know how to escape?” “Who told you that?
+(6105) {710882} [710904]: “Who told you that?...
+*****************************************************************
+========================= CLASS #127 =============================
+(2217) {260139} [260260]: Mademoiselle Bourienne, here’s another admirer of that powder-monkey emperor of yours,” he exclaimed in excellent French.
+(3386) {385530} [385563]: Schmidt!” he exclaimed in German.
+*****************************************************************
+========================= CLASS #128 =============================
+(2298) {267513} [267543]: “So you promise?” “Of course.
+(3134) {355557} [355568]: “Of course.
+*****************************************************************
+========================= CLASS #129 =============================
+(2370) {274326} [274437]: “It’s a bad business, eh?” “What is bad, Father?” “The wife!” said the old prince, briefly and significantly.
+(3021) {344152} [344173]: “It’s a lovely place!
+(3722) {422660} [422691]: It’s a bad lookout, old fellow!
+(5205) {595992} [596017]: Go!” said the old prince.
+*****************************************************************
+========================= CLASS #130 =============================
+(2372) {274482} [274529]: “No, it can’t be helped, lad,” said the prince.
+(7631) {877780} [877796]: No, it can’t be!
+*****************************************************************
+========================= CLASS #131 =============================
+(2374) {274573} [274823]: Don’t be afraid; I won’t tell anyone, but you know it yourself.” He seized his son by the hand with small bony fingers, shook it, looked straight into his son’s face with keen eyes which seemed to see through him, and again laughed his frigid laugh.
+(7787) {891618} [891639]: Don’t be cross, dear!
+*****************************************************************
+========================= CLASS #132 =============================
+(2403) {276564} [276890]: “Remember this, Prince Andrew, if they kill you it will hurt me, your old father...” he paused unexpectedly, and then in a querulous voice suddenly shrieked: “but if I hear that you have not behaved like a son of Nicholas Bolkónski, I shall be ashamed!” “You need not have said that to me, Father,” said the son with a smile.
+(3515) {401996} [402014]: And...” he paused.
+*****************************************************************
+========================= CLASS #133 =============================
+(2456) {284075} [284127]: “Oh, my God!” he added, stepping resolutely forward.
+(3384) {385509} [385521]: “Oh, my God!
+*****************************************************************
+========================= CLASS #134 =============================
+(2478) {286532} [286780]: I’ll teach you to dress the men in fancy coats for a parade.... Eh...?” The commander of the company, with his eyes fixed on his superior, pressed two fingers more and more rigidly to his cap, as if in this pressure lay his only hope of salvation.
+(3682) {419633} [419663]: “I’ll teach you to push on!...
+*****************************************************************
+========================= CLASS #135 =============================
+(2481) {286904} [286955]: “Your excellency...” “Well, your excellency, what?
+(3202) {363006} [363023]: “Your excellency!
+*****************************************************************
+========================= CLASS #136 =============================
+(2489) {287363} [287448]: That’s just like you young men,” said the regimental commander cooling down a little.
+(2604) {299623} [299646]: That’s just it, friend!
+*****************************************************************
+========================= CLASS #137 =============================
+(2507) {288780} [288843]: CHAPTER II “He’s coming!” shouted the signaler at that moment.
+(2766) {321888} [321911]: “He’s coming!” said he.
+*****************************************************************
+========================= CLASS #138 =============================
+(2543) {293460} [293523]: Are you satisfied with him?” he asked the regimental commander.
+(6797) {786789} [786821]: Is his wife with him?” he asked.
+*****************************************************************
+========================= CLASS #139 =============================
+(2627) {302942} [303035]: And how have you wriggled onto the staff?” “I was attached; I’m on duty.” Both were silent.
+(2892) {332119} [332136]: Both were silent.
+*****************************************************************
+========================= CLASS #140 =============================
+(2631) {303324} [303346]: “The devil only knows!
+(6336) {738144} [738161]: “The devil knows!
+*****************************************************************
+========================= CLASS #141 =============================
+(2690) {311730} [311858]: “The commander in chief is engaged,” said Kozlóvski, going hurriedly up to the unknown general and blocking his way to the door.
+(2692) {312016} [312079]: “The commander in chief is engaged,” repeated Kozlóvski calmly.
+(6371) {741106} [741130]: “The commander in chief?
+*****************************************************************
+========================= CLASS #142 =============================
+(2708) {314505} [314599]: “Why are you so glum?” asked Nesvítski noticing Prince Andrew’s pale face and glittering eyes.
+(3630) {413891} [413910]: “Why are you going?
+*****************************************************************
+========================= CLASS #143 =============================
+(2711) {314942} [315142]: There was room enough in the wide corridor for the generals to pass the three officers quite easily, but Zherkóv, pushing Nesvítski aside with his arm, said in a breathless voice, “They’re coming!...
+(2712) {315143} [315161]: they’re coming!...
+*****************************************************************
+========================= CLASS #144 =============================
+(2715) {315409} [315661]: “Your excellency,” said he in German, stepping forward and addressing the Austrian general, “I have the honor to congratulate you.” He bowed his head and scraped first with one foot and then with the other, awkwardly, like a child at a dancing lesson.
+(2718) {315867} [315905]: “I have the honor to congratulate you.
+*****************************************************************
+========================= CLASS #145 =============================
+(2758) {320703} [320758]: * “Busy already?” * (2) “Hurrah for the Austrians!
+(2759) {320759} [320783]: Hurrah for the Russians!
+*****************************************************************
+========================= CLASS #146 =============================
+(2776) {322660} [322675]: “Such ill luck!
+(2777) {322676} [322690]: Such ill luck.
+*****************************************************************
+========================= CLASS #147 =============================
+(2795) {324270} [324282]: How d’ye do?
+(4987) {575303} [575315]: How d’ye do?
+(4988) {575303} [575315]: How d’ye do?
+*****************************************************************
+========================= CLASS #148 =============================
+(2818) {325998} [326077]: I don’t like that fellow,” he said, regardless of the quartermaster’s presence.
+(4992) {575564} [575592]: Fine young fellow!” he said.
+*****************************************************************
+========================= CLASS #149 =============================
+(2826) {326635} [326731]: But where are you off to?” “I want to teach this young man how to shoe a horse,” said Telyánin.
+(2918) {334152} [334173]: What?” said Telyánin.
+*****************************************************************
+========================= CLASS #150 =============================
+(2834) {327459} [327562]: Send him to the devil, I’m busy!” he shouted to Lavrúshka, who went up to him not in the least abashed.
+(2842) {327935} [327984]: Call the quahtehmasteh,” he shouted to Lavrúshka.
+*****************************************************************
+========================= CLASS #151 =============================
+(2838) {327718} [327761]: “Wetched business,” he muttered to himself.
+(4290) {493333} [493385]: Breathing again, breathing!” he muttered to himself.
+*****************************************************************
+========================= CLASS #152 =============================
+(2839) {327762} [327823]: “How much is left in the puhse?” he asked, turning to Rostóv.
+(6557) {763313} [763330]: “How much longer?
+(6558) {763314} [763330]: How much longer?
+*****************************************************************
+========================= CLASS #153 =============================
+(2849) {328468} [328492]: The purse was not there.
+(2852) {328654} [328678]: The purse was not there.
+*****************************************************************
+========================= CLASS #154 =============================
+(2866) {329845} [329997]: “Now then, you devil’s puppet, look alive and hunt for it!” shouted Denísov, suddenly, turning purple and rushing at the man with a threatening gesture.
+(3110) {353422} [353444]: “Now, then, you there!
+*****************************************************************
+========================= CLASS #155 =============================
+(2943) {336805} [337039]: Ask Denísov whether it is not out of the question for a cadet to demand satisfaction of his regimental commander?” Denísov sat gloomily biting his mustache and listening to the conversation, evidently with no wish to take part in it.
+(5136) {590604} [590633]: Leave me out of the question.
+*****************************************************************
+========================= CLASS #156 =============================
+(2961) {338616} [338866]: “You have been in the regiment next to no time, my lad, you’re here today and tomorrow you’ll be appointed adjutant somewhere and can snap your fingers when it is said ‘There are thieves among the Pávlograd officers!’ But it’s not all the same to us!
+(6561) {763549} [763560]: We’re here!
+(7617) {876949} [876972]: But it’s not his fault.
+*****************************************************************
+========================= CLASS #157 =============================
+(3010) {342715} [342889]: Down below, the little town could be seen with its white, red-roofed houses, its cathedral, and its bridge, on both sides of which streamed jostling masses of Russian troops.
+(4364) {499276} [499298]: Nothing could be seen.
+*****************************************************************
+========================= CLASS #158 =============================
+(3020) {344030} [344151]: “Thank you very much, Prince,” answered one of the officers, pleased to be talking to a staff officer of such importance.
+(3399) {386193} [386213]: Thank you very much.
+*****************************************************************
+========================= CLASS #159 =============================
+(3059) {348185} [348337]: Don’t you see the general wants to pass?” But the convoyman took no notice of the word “general” and shouted at the soldiers who were blocking his way.
+(3206) {363210} [363255]: Don’t you see the skirmishers are retreating?
+*****************************************************************
+========================= CLASS #160 =============================
+(3088) {351659} [351854]: “Just see, the German sausage is making tracks, too!” “Sell me the missis,” said another soldier, addressing the German, who, angry and frightened, strode energetically along with downcast eyes.
+(4253) {488514} [488533]: Just see the smoke!
+*****************************************************************
+========================= CLASS #161 =============================
+(3090) {351891} [352128]: Oh, the devils!” “There, Fedótov, you should be quartered on them!” “I have seen as much before now, mate!” “Where are you going?” asked an infantry officer who was eating an apple, also half smiling as he looked at the handsome girl.
+(3099) {352711} [352737]: “Where are you shoving to?
+(7050) {817823} [817837]: “Where are we?
+*****************************************************************
+========================= CLASS #162 =============================
+(3170) {359619} [359937]: But you are strong, healthy, cheerful, and excited, and are surrounded by other such excitedly animated and healthy men.” So thinks, or at any rate feels, anyone who comes in sight of the enemy, and that feeling gives a particular glamour and glad keenness of impression to everything that takes place at such moments.
+(3228) {366704} [366721]: But you are damp!
+*****************************************************************
+========================= CLASS #163 =============================
+(3175) {360229} [360328]: All were looking at the enemy in front and at the squadron commander, awaiting the word of command.
+(3238) {367968} [367998]: Then came the word of command.
+*****************************************************************
+========================= CLASS #164 =============================
+(3186) {361609} [361638]: “Who’s that curtseying there?
+(5163) {592821} [592833]: “Who’s that?
+*****************************************************************
+========================= CLASS #165 =============================
+(3264) {370705} [370977]: “True enough,” answered Nesvítski; “two smart fellows could have done the job just as well.” “Ah, your excellency,” put in Zherkóv, his eyes fixed on the hussars, but still with that naïve air that made it impossible to know whether he was speaking in jest or in earnest.
+(3265) {370978} [370999]: “Ah, your excellency!
+*****************************************************************
+========================= CLASS #166 =============================
+(3352) {381717} [381772]: Go on!” he shouted to the driver, and they galloped on.
+(6577) {764492} [764537]: “Now then, get on,” he shouted to the driver.
+*****************************************************************
+========================= CLASS #167 =============================
+(3359) {382674} [382835]: At the chief entrance to the palace, however, an official came running out to meet him, and learning that he was a special messenger led him to another entrance.
+(3570) {407482} [407511]: Bilíbin came out to meet him.
+*****************************************************************
+========================= CLASS #168 =============================
+(3440) {391250} [391535]: Where’s the victory?” “But seriously,” said Prince Andrew, “we can at any rate say without boasting that it was a little better than at Ulm...” “Why didn’t you capture one, just one, marshal for us?” “Because not everything happens as one expects or with the smoothness of a parade.
+(3829) {436411} [436446]: “Why didn’t you mention it, Prince?
+*****************************************************************
+========================= CLASS #169 =============================
+(3452) {392927} [393126]: Kutúzov alone at last gains a real victory, destroying the spell of the invincibility of the French, and the Minister of War does not even care to hear the details.” “That’s just it, my dear fellow.
+(3585) {408483} [408518]: “That’s just it,” answered Bilíbin.
+(5606) {647731} [647790]: “That’s just it,” interrupted Dolgorúkov quickly, laughing.
+*****************************************************************
+========================= CLASS #170 =============================
+(3478) {396344} [396729]: If not it is merely a question of settling where the preliminaries of the new Campo Formio are to be drawn up.” “What an extraordinary genius!” Prince Andrew suddenly exclaimed, clenching his small hand and striking the table with it, “and what luck the man has!” “Buonaparte?” said Bilíbin inquiringly, puckering up his forehead to indicate that he was about to say something witty.
+(5025) {578646} [578660]: “What an idea!
+*****************************************************************
+========================= CLASS #171 =============================
+(3625) {413326} [413428]: “Where are you off to?” he said suddenly to Prince Andrew who had risen and was going toward his room.
+(6316) {736139} [736175]: “Where are you off to?” asked Borís.
+*****************************************************************
+========================= CLASS #172 =============================
+(3674) {419189} [419338]: They won’t let us pass, we are left behind and have lost our people...” “I’ll flatten you into a pancake!” shouted the angry officer to the soldier.
+(3688) {419891} [419948]: Go back or I’ll flatten you into a pancake,” repeated he.
+*****************************************************************
+========================= CLASS #173 =============================
+(3678) {419399} [419450]: What does it all mean?” screamed the doctor’s wife.
+(6344) {738722} [738757]: What does it all mean?” thought he.
+*****************************************************************
+========================= CLASS #174 =============================
+(3683) {419664} [419746]: Back!” “Let them pass, I tell you!” repeated Prince Andrew, compressing his lips.
+(7385) {851436} [851446]: “Let them!
+*****************************************************************
+========================= CLASS #175 =============================
+(3695) {420583} [420674]: “It’s all the fault of these fellows on the staff that there’s this disorder,” he muttered.
+(6387) {742157} [742180]: “It’s all the same now.
+*****************************************************************
+========================= CLASS #176 =============================
+(3711) {421875} [421926]: “Where is the commander in chief?” asked Bolkónski.
+(6355) {739880} [739902]: “Where is the Emperor?
+*****************************************************************
+========================= CLASS #177 =============================
+(3801) {432583} [432933]: As soon as Bonaparte (who was at Schönbrunn, sixteen miles from Hollabrünn) received Murat’s dispatch with the proposal of a truce and a capitulation, he detected a ruse and wrote the following letter to Murat: Schönbrunn, 25th Brumaire, 1805, at eight o’clock in the morning To PRINCE MURAT, I cannot find words to express to you my displeasure.
+(6057) {704210} [704245]: It was nine o’clock in the morning.
+*****************************************************************
+========================= CLASS #178 =============================
+(3828) {436258} [436409]: It won’t take a moment.” “Yes, let’s go in and I will get myself a roll and some cheese,” said Prince Andrew who had not yet had time to eat anything.
+(5326) {610462} [610509]: Rostóv had not yet had time to get his uniform.
+*****************************************************************
+========================= CLASS #179 =============================
+(3945) {449753} [449892]: That’s so, friend.” Another, a younger voice, interrupted him: “Afraid or not, you can’t escape it anyhow.” “All the same, one is afraid!
+(6514) {757698} [757712]: “All the same!
+*****************************************************************
+========================= CLASS #180 =============================
+(3966) {452014} [452098]: Prince Andrew turned his horse and galloped back to Grunth to find Prince Bagratión.
+(4301) {494267} [494304]: He turned his horse and galloped off.
+(5969) {692873} [692915]: Rostóv turned his horse and galloped back.
+*****************************************************************
+========================= CLASS #181 =============================
+(3971) {452635} [452649]: “It has begun.
+(3974) {453063} [453077]: “It has begun!
+(3980) {453633} [453660]: The feeling, “It has begun!
+*****************************************************************
+========================= CLASS #182 =============================
+(3972) {452650} [452722]: Here it is!” thought Prince Andrew, feeling the blood rush to his heart.
+(6190) {721439} [721451]: “Here it is!
+*****************************************************************
+========================= CLASS #183 =============================
+(3986) {454319} [454466]: Prince Bagratión, uttering his words with an Oriental accent, spoke particularly slowly, as if to impress the fact that there was no need to hurry.
+(6381) {741751} [741770]: What need to hurry?
+*****************************************************************
+========================= CLASS #184 =============================
+(4020) {458915} [459053]: “Very good!” said Bagratión in reply to the officer’s report, and began deliberately to examine the whole battlefield extended before him.
+(4032) {460598} [460626]: “Very good!” said Bagratión.
+(5980) {693956} [693995]: “Very good, very good,” said Bagratión.
+*****************************************************************
+========================= CLASS #185 =============================
+(4055) {463896} [464247]: “It can’t be an attack, for they are not moving; it can’t be a square—for they are not drawn up for that.” The commander of the regiment, a thin, feeble-looking old man with a pleasant smile—his eyelids drooping more than half over his old eyes, giving him a mild expression, rode up to Bagratión and welcomed him as a host welcomes an honored guest.
+(6362) {740484} [740511]: “It can’t be!” said Rostóv.
+*****************************************************************
+========================= CLASS #186 =============================
+(4088) {469740} [469819]: “Glad to do our best, your ex’len-lency!” came a confused shout from the ranks.
+(6169) {719417} [719461]: “Glad to do our best!” shouted the soldiers.
+*****************************************************************
+========================= CLASS #187 =============================
+(4166) {479459} [479586]: Instead of the moving horses and hussars’ backs, he saw nothing before him but the motionless earth and the stubble around him.
+(6250) {727636} [727655]: But he saw nothing.
+*****************************************************************
+========================= CLASS #188 =============================
+(4169) {479742} [479807]: Blood was flowing from his head; he struggled but could not rise.
+(6201) {722493} [722526]: Blood was flowing from his cheek.
+*****************************************************************
+========================= CLASS #189 =============================
+(4186) {480921} [480958]: Can it be that they will take me too?
+(6595) {765925} [765936]: “Can it be?
+*****************************************************************
+========================= CLASS #190 =============================
+(4189) {481251} [481265]: “Who are they?
+(4460) {509794} [509808]: “Who are they?
+*****************************************************************
+========================= CLASS #191 =============================
+(4190) {481266} [481287]: Why are they running?
+(4461) {509809} [509827]: Why are they here?
+*****************************************************************
+========================= CLASS #192 =============================
+(4194) {481335} [481501]: Me whom everyone is so fond of?” He remembered his mother’s love for him, and his family’s, and his friends’, and the enemy’s intention to kill him seemed impossible.
+(6396) {743310} [743349]: He remembered his mother’s last letter.
+*****************************************************************
+========================= CLASS #193 =============================
+(4275) {491370} [491575]: It seemed to him that it was a very long time ago, almost a day, since he had first seen the enemy and fired the first shot, and that the corner of the field he stood on was well-known and familiar ground.
+(5892) {686426} [686471]: It seemed to him that it was getting lighter.
+*****************************************************************
+========================= CLASS #194 =============================
+(4325) {496013} [496093]: It was growing dark and the glow of two conflagrations was the more conspicuous.
+(6448) {749969} [749989]: It was growing dusk.
+*****************************************************************
+========================= CLASS #195 =============================
+(4350) {498128} [498213]: “No, it’s a sprain.” “Then what is this blood on the gun carriage?” inquired Túshin.
+(7235) {836607} [836637]: “No, it’s only indigestion?...
+*****************************************************************
+========================= CLASS #196 =============================
+(4371) {499955} [500108]: After a while the moving mass became agitated, someone rode past on a white horse followed by his suite, and said something in passing: “What did he say?
+(5948) {690300} [690325]: One was on a white horse.
+*****************************************************************
+========================= CLASS #197 =============================
+(4425) {505863} [506210]: “They broke up two squares, your excellency.” Several of those present smiled at Zherkóv’s words, expecting one of his usual jokes, but noticing that what he was saying redounded to the glory of our arms and of the day’s work, they assumed a serious expression, though many of them knew that what he was saying was a lie devoid of any foundation.
+(4440) {507548} [507581]: Several of those present laughed.
+*****************************************************************
+========================= CLASS #198 =============================
+(4455) {509559} [509591]: Prince Andrew went out with him.
+(5844) {680421} [680444]: Prince Andrew went out.
+*****************************************************************
+========================= CLASS #199 =============================
+(4472) {511109} [511142]: He opened his eyes and looked up.
+(6488) {754410} [754429]: He opened his eyes.
+*****************************************************************
+========================= CLASS #200 =============================
+(4490) {512496} [512649]: For me, there are no ministers!” “Your honor, I thought...” “You thought!” shouted the prince, his words coming more and more rapidly and indistinctly.
+(4491) {512650} [512666]: “You thought!...
+*****************************************************************
+========================= CLASS #201 =============================
+(4569) {523463} [523498]: I was nearly forgetting,” he added.
+(7751) {888962} [888986]: I was nearly forgetting.
+*****************************************************************
+========================= CLASS #202 =============================
+(4576) {524707} [524887]: His whole time was taken up with dinners and balls and was spent chiefly at Prince Vasíli’s house in the company of the stout princess, his wife, and his beautiful daughter Hélène.
+(5369) {615056} [615079]: What dinners and balls!
+*****************************************************************
+========================= CLASS #203 =============================
+(4593) {527862} [527891]: “And how she carries herself!
+(7505) {864134} [864154]: “And how she dances!
+*****************************************************************
+========================= CLASS #204 =============================
+(4633) {532382} [532440]: “That’s a good thing, but don’t move from Prince Vasíli’s.
+(5009) {577496} [577516]: That’s a good thing.
+*****************************************************************
+========================= CLASS #205 =============================
+(4733) {546132} [546313]: How did it begin, when did it all come about?” And here he was sitting by her side as her betrothed, seeing, hearing, feeling her nearness, her breathing, her movements, her beauty.
+(7622) {877187} [877209]: And when did it begin?
+*****************************************************************
+========================= CLASS #206 =============================
+(4748) {547497} [547653]: Some, as if unwilling to distract her from an important occupation, came up to her for a moment and made haste to go away, refusing to let her see them off.
+(4932) {568880} [568908]: Then Anatole came up to her.
+*****************************************************************
+========================= CLASS #207 =============================
+(4752) {547884} [547915]: “Oh, the old fool,” he thought.
+(7530) {866435} [866450]: “Oh, the faiwy!
+*****************************************************************
+========================= CLASS #208 =============================
+(4774) {550131} [550531]: The sight of the discomposure of that old man of the world touched Pierre: he looked at Hélène and she too seemed disconcerted, and her look seemed to say: “Well, it is your own fault.” “The step must be taken but I cannot, I cannot!” thought Pierre, and he again began speaking about indifferent matters, about Sergéy Kuzmích, asking what the point of the story was as he had not heard it properly.
+(7305) {844912} [844945]: Help me!” her look seemed to say.
+*****************************************************************
+========================= CLASS #209 =============================
+(4787) {551650} [551726]: His face was so unusually triumphant that Pierre rose in alarm on seeing it.
+(7020) {815485} [815503]: His face was pale.
+*****************************************************************
+========================= CLASS #210 =============================
+(4907) {565562} [565617]: And as Princess Mary gave no answer, she left the room.
+(6563) {763689} [763712]: Denísov gave no answer.
+*****************************************************************
+========================= CLASS #211 =============================
+(4980) {574715} [574775]: And that is what we shall see.” “That is what we shall see!
+(4981) {574776} [574819]: That is what we shall see!” he added aloud.
+*****************************************************************
+========================= CLASS #212 =============================
+(5031) {578926} [579035]: “Let her marry, it’s all the same to me!” he screamed in the same piercing tone as when parting from his son.
+(7646) {879324} [879359]: “It’s all the same to me,” he said.
+*****************************************************************
+========================= CLASS #213 =============================
+(5074) {584240} [584424]: “Is it possible that Amélie” (Mademoiselle Bourienne) “thinks I could be jealous of her, and not value her pure affection and devotion to me?” She went up to her and kissed her warmly.
+(7465) {860311} [860355]: Nicholas went up to her and kissed her hand.
+*****************************************************************
+========================= CLASS #214 =============================
+(5232) {599422} [599506]: I’m sure of it!” exclaimed Natásha, reading confirmation in Anna Mikháylovna’s face.
+(7674) {882490} [882520]: Excellent!” exclaimed Natásha.
+*****************************************************************
+========================= CLASS #215 =============================
+(5395) {617850} [617974]: “This letter would be of great use to you.” “I want nothing, and I won’t be anyone’s adjutant.” “Why not?” inquired Borís.
+(5880) {685239} [685251]: “Why not?...
+(7482) {861508} [861523]: I want nothing.
+*****************************************************************
+========================= CLASS #216 =============================
+(5398) {618116} [618177]: But that’s not the point... Come, how are you?” asked Rostóv.
+(6374) {741266} [741289]: Kutúzov?” asked Rostóv.
+*****************************************************************
+========================= CLASS #217 =============================
+(5427) {620954} [620997]: “Yes, that was fine,” said Rostóv, smiling.
+(7067) {819568} [819585]: Yes, that was it!
+*****************************************************************
+========================= CLASS #218 =============================
+(5460) {625870} [625957]: “I am not talking about you,” he said, “I don’t know you and, frankly, I don’t want to.
+(6720) {776993} [777023]: “I don’t want to marry anyone.
+*****************************************************************
+========================= CLASS #219 =============================
+(5512) {633847} [633924]: “Oh God, what would happen to me if the Emperor spoke to me?” thought Rostóv.
+(6586) {765175} [765183]: “Oh God!
+*****************************************************************
+========================= CLASS #220 =============================
+(5532) {636655} [636755]: “My God, how happy I should be if he ordered me to leap into the fire this instant!” thought Rostóv.
+(6343) {738713} [738721]: “My God!
+*****************************************************************
+========================= CLASS #221 =============================
+(5568) {642494} [642537]: We’ll talk it over,” replied Prince Andrew.
+(6704) {775885} [775914]: “We’ll talk it over later on.
+*****************************************************************
+========================= CLASS #222 =============================
+(5719) {661529} [661630]: He really was in love with the Tsar and the glory of the Russian arms and the hope of future triumph.
+(5801) {673771} [673792]: He really was asleep.
+*****************************************************************
+========================= CLASS #223 =============================
+(5760) {667989} [668105]: No, we mustn’t forget Suvórov and his rule—not to put yourself in a position to be attacked, but yourself to attack.
+(5902) {687381} [687398]: I mustn’t forget.
+*****************************************************************
+========================= CLASS #224 =============================
+(5873) {683957} [683995]: “Go, Tit, thresh a bit!” said the wag.
+(6438) {749035} [749044]: “Go, Tit!
+*****************************************************************
+========================= CLASS #225 =============================
+(5925) {688434} [688625]: Over there, where the shouting came from, a fire flared up and went out again, then another, and all along the French line on the hill fires flared up and the shouting grew louder and louder.
+(6271) {730414} [730448]: The firing grew louder and louder.
+*****************************************************************
+========================= CLASS #226 =============================
+(6240) {726659} [726720]: “Why doesn’t the red-haired gunner run away as he is unarmed?
+(6241) {726721} [726756]: Why doesn’t the Frenchman stab him?
+*****************************************************************
+========================= CLASS #227 =============================
+(6651) {771402} [771435]: “Is this your saber?” he shouted.
+(6658) {771713} [771747]: “Is this your saber?” asked Pétya.
+*****************************************************************
+========================= CLASS #228 =============================
+(6678) {773345} [773388]: I’ll tell you all about it some other time.
+(6679) {773389} [773411]: No, I’ll tell you now.
+*****************************************************************
+========================= CLASS #229 =============================
+(6711) {776334} [776554]: That’s what I’m up to.” Curving her arms, Natásha held out her skirts as dancers do, ran back a few steps, turned, cut a caper, brought her little feet sharply together, and made some steps on the very tips of her toes.
+(6714) {776647} [776673]: “So that’s what I’m up to!
+*****************************************************************
+========================= CLASS #230 =============================
+(6849) {795076} [795134]: The old count came up to them and pressed Dólokhov’s hand.
+(7808) {893137} [893157]: She came up to them.
+*****************************************************************
+========================= CLASS #231 =============================
+(6875) {799094} [799256]: The door opened, and from the dining room came the resounding strains of the polonaise: Conquest’s joyful thunder waken, Triumph, valiant Russians, now!...
+(7336) {846843} [846859]: The door opened.
+*****************************************************************
+========================= CLASS #232 =============================
+(7065) {819474} [819512]: “What has happened?” he asked himself.
+(7725) {886961} [886987]: “What has happened to her?
+*****************************************************************
