@@ -9,7 +9,7 @@ from nltk.util import trigrams  # skipgrams(_, n, k); n - deg, k - skip dist
 import re
 
 # This can be varied
-language = 'english'.lower()
+language = 'russian'.lower()
 removeStops = True  # `= set()` for not removing stopwords
 puncts = set('.,!?():;"[]{}/')
 default_encodings = ["utf-8", "cp1251"]

@@ -11,9 +11,9 @@ def intersect(sent1, sent2):
     return [s for s in sent1 if s in sent2]
 
 
-name = "War and Peace (Book 1-4).txt"
+name = "ukita_modelling_convention_part2.pxml"
 
-text = Text("resources/" + name)
+text = Text("resources/russian/" + name)
 sents = text.sents
 classes = []
 
@@ -36,7 +36,7 @@ for curSent in sents:
         classes[bestClass].sents.append(curSent)
 
 cur = 0
-with open(name + " result.txt", "w", encoding=text.encoding) as file:
+with open(name + " stemmer result.txt", "w", encoding=text.encoding) as file:
     for curClass in classes:
         if len(curClass.sents) == 1:
             continue
