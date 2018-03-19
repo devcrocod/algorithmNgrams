@@ -11,16 +11,7 @@ def intersect(sent1, sent2):
     return [s for s in sent1 if s in sent2]
 
 
-def compareSentWithClass(curClass, curSent):
-    overlap = []
-    for sent in curClass.sents:
-        tmp = len(intersect(sent.nGrams, curSent.nGrams)) / len(curSent.nGrams)
-        overlap.append(tmp)
-    avgOverlap = sum(overlap) / len(overlap)
-    return avgOverlap
-
-
-name = "DocBook_Definitive_Guide.pxml"
+name = "War and Peace (Book 1-4).txt"
 
 text = Text("resources/" + name)
 sents = text.sents
@@ -34,8 +25,7 @@ for curSent in sents:
     for j in range(len(classes)):
         curClass = classes[j]
         curIntersect = intersect(curSent.nGrams, curClass.nGrams)
-        # curOverlap = len(curIntersect) / len(curSent.nGrams)
-        curOverlap = compareSentWithClass(curClass, curSent)
+        curOverlap = len(curIntersect) / len(curSent.nGrams)
         if curOverlap > bestOverlap:
             bestOverlap = curOverlap
             bestClass = j
@@ -46,7 +36,7 @@ for curSent in sents:
         classes[bestClass].sents.append(curSent)
 
 cur = 0
-with open(name + "compare result.txt", "w", encoding=text.encoding) as file:
+with open(name + " result.txt", "w", encoding=text.encoding) as file:
     for curClass in classes:
         if len(curClass.sents) == 1:
             continue
