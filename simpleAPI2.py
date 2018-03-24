@@ -48,7 +48,7 @@ def wordsToLemmed(sent: Iterator[str]) -> List[str]:
 
 # Kernel classes
 class Sentence:
-    # stemmer = Stemmer()
+    stemmer = Stemmer()
     lemmater = WordNetLemmatizer()
 
     def __init__(self, index: int, sent: str, start: int, end: int):

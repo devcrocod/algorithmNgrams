@@ -12,11 +12,15 @@ def intersect(sent1, sent2):
 
 
 def compareSentWithClass(curClass, curSent):
-    overlap = []
+    # overlap = []
+    A = curSent.nGrams
     for sent in curClass.sents:
-        tmp = len(intersect(sent.nGrams, curSent.nGrams)) / len(curSent.nGrams)
-        overlap.append(tmp)
-    avgOverlap = sum(overlap) / len(overlap)
+        A = intersect(A, sent.nGrams)
+    avgOverlap = len(A) / len(curSent.nGrams)
+    # for sent in curClass.sents:
+    #     tmp = len(intersect(sent.nGrams, curSent.nGrams)) / len(curSent.nGrams)
+    #     overlap.append(tmp)
+    # avgOverlap = sum(overlap) / len(overlap)
     return avgOverlap
 
 
@@ -34,7 +38,6 @@ for curSent in sents:
     for j in range(len(classes)):
         curClass = classes[j]
         curIntersect = intersect(curSent.nGrams, curClass.nGrams)
-        # curOverlap = len(curIntersect) / len(curSent.nGrams)
         curOverlap = compareSentWithClass(curClass, curSent)
         if curOverlap > bestOverlap:
             bestOverlap = curOverlap
@@ -46,7 +49,7 @@ for curSent in sents:
         classes[bestClass].sents.append(curSent)
 
 cur = 0
-with open(name + "compare result.txt", "w", encoding=text.encoding) as file:
+with open(name + "result.txt", "w", encoding=text.encoding) as file:
     for curClass in classes:
         if len(curClass.sents) == 1:
             continue
