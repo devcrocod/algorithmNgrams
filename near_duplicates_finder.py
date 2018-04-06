@@ -12,15 +12,10 @@ def intersect(sent1, sent2):
 
 
 def compareSentWithClass(curClass, curSent):
-    # overlap = []
     A = curSent.nGrams
     for sent in curClass.sents:
         A = intersect(A, sent.nGrams)
     avgOverlap = len(A) / len(curSent.nGrams)
-    # for sent in curClass.sents:
-    #     tmp = len(intersect(sent.nGrams, curSent.nGrams)) / len(curSent.nGrams)
-    #     overlap.append(tmp)
-    # avgOverlap = sum(overlap) / len(overlap)
     return avgOverlap
 
 
