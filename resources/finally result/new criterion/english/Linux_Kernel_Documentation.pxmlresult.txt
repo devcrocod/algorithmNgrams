@@ -1,0 +1,805 @@
+========================= CLASS #1 =============================
+(0) {0} [407]: <?xml version="1.0" encoding="utf-8" ?> <plainxml>The 802.11 subsystems &amp;ndash; for kernel developers Explaining wireless 802.11 networking in the Linux kernel 2007-2009Johannes BergJohannesBergjohannes@sipsolutions.net This documentation is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 as published by the Free Software Foundation.
+(2) {595} [647]: See the GNU General Public License for more details.
+(32) {6138} [6190]: See the GNU General Public License for more details.
+(62) {11725} [11777]: See the GNU General Public License for more details.
+(65) {12877} [12929]: See the GNU General Public License for more details.
+(169) {24345} [24397]: See the GNU General Public License for more details.
+(231) {33596} [33648]: See the GNU General Public License for more details.
+(903) {123504} [123556]: See the GNU General Public License for more details.
+(968) {132762} [132814]: See the GNU General Public License for more details.
+(1151) {158217} [158269]: See the GNU General Public License for more details.
+(1219) {170381} [170433]: See the GNU General Public License for more details.
+(1243) {174831} [174883]: See the GNU General Public License for more details.
+(1482) {203197} [203249]: See the GNU General Public License for more details.
+(2263) {315630} [315682]: See the GNU General Public License for more details.
+(2386) {333231} [333283]: See the GNU General Public License for more details.
+(2603) {365350} [365402]: See the GNU General Public License for more details.
+(2608) {366581} [366633]: See the GNU General Public License for more details.
+(2619) {368826} [368878]: See the GNU General Public License for more details.
+(2664) {374613} [374665]: See the GNU General Public License for more details.
+(2750) {386379} [386431]: See the GNU General Public License for more details.
+(2754) {387356} [387408]: See the GNU General Public License for more details.
+(3009) {415722} [415774]: See the GNU General Public License for more details.
+(3234) {445611} [445663]: See the GNU General Public License for more details.
+(4135) {572913} [572965]: See the GNU General Public License for more details.
+(4209) {586762} [586814]: See the GNU General Public License for more details.
+*****************************************************************
+========================= CLASS #2 =============================
+(1) {409} [594]: This documentation is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(31) {5952} [6137]: This documentation is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(61) {11544} [11724]: This document is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(64) {12697} [12876]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(168) {24165} [24344]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(230) {33416} [33595]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(902) {123324} [123503]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(967) {132582} [132761]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(1150) {158037} [158216]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(1218) {170201} [170380]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(1242) {174651} [174830]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(1481) {203017} [203196]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(2262) {315450} [315629]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(2385) {333051} [333230]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(2602) {365170} [365349]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(2607) {366401} [366580]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(2618) {368646} [368825]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(2663) {374433} [374612]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(2693) {378100} [378279]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(2749) {386199} [386378]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(2753) {387176} [387355]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(3008) {415542} [415721]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(3233) {445430} [445610]: This document is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(4134) {572733} [572912]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(4208) {586582} [586761]: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+*****************************************************************
+========================= CLASS #3 =============================
+(3) {649} [928]: You should have received a copy of the GNU General Public License along with this documentation; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(33) {6192} [6471]: You should have received a copy of the GNU General Public License along with this documentation; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(66) {12931} [13204]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(170) {24399} [24672]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(232) {33650} [33923]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(904) {123558} [123831]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(969) {132816} [133089]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(1152) {158271} [158544]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(1220) {170435} [170708]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(1244) {174885} [175158]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(1483) {203251} [203524]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(2264) {315684} [315957]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(2387) {333285} [333558]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(2604) {365404} [365677]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(2609) {366635} [366908]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(2620) {368880} [369153]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(2665) {374667} [374940]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(2694) {378280} [378354]: For more details see the file COPYING in the source distribution of Linux.
+*****************************************************************
+========================= CLASS #4 =============================
+(4) {931} [1055]: These books attempt to give a description of the various subsystems that play a role in 802.11 wireless networking in Linux.
+(34) {6474} [6598]: These books attempt to give a description of the various subsystems that play a role in 802.11 wireless networking in Linux.
+*****************************************************************
+========================= CLASS #5 =============================
+(5) {1056} [1216]: Since these books are for kernel developers they attempts to document the structures and functions used in the kernel as well as giving a higher-level overview.
+(35) {6599} [6759]: Since these books are for kernel developers they attempts to document the structures and functions used in the kernel as well as giving a higher-level overview.
+*****************************************************************
+========================= CLASS #6 =============================
+(6) {1218} [1350]: The reader is expected to be familiar with the 802.11 standard as published by the IEEE in 802.11-2007 (or possibly later versions).
+(36) {6761} [6893]: The reader is expected to be familiar with the 802.11 standard as published by the IEEE in 802.11-2007 (or possibly later versions).
+*****************************************************************
+========================= CLASS #7 =============================
+(7) {1351} [1426]: References to this standard will be given as &quot;802.11-2007 8.1.5&quot;.
+(37) {6894} [6969]: References to this standard will be given as &quot;802.11-2007 8.1.5&quot;.
+*****************************************************************
+========================= CLASS #8 =============================
+(8) {1427} [1729]: The cfg80211 subsystem Device registration Actions and configuration Scanning and BSS list handling Utility functions Data path helpers Regulatory enforcement infrastructure RFkill integration Test mode The mac80211 subsystem &lt;!-- Generally, this document shall be ordered by increasing complexity.
+(38) {6970} [7272]: The cfg80211 subsystem Device registration Actions and configuration Scanning and BSS list handling Utility functions Data path helpers Regulatory enforcement infrastructure RFkill integration Test mode The mac80211 subsystem &lt;!-- Generally, this document shall be ordered by increasing complexity.
+*****************************************************************
+========================= CLASS #9 =============================
+(9) {1730} [1907]: It is important to note that readers should be able to read only the first few sections to get a working driver and only advanced usage should require reading the full document.
+(39) {7273} [7450]: It is important to note that readers should be able to read only the first few sections to get a working driver and only advanced usage should require reading the full document.
+*****************************************************************
+========================= CLASS #10 =============================
+(10) {1908} [2064]: --&gt;The basic mac80211 driver interface You should read and understand the information contained within this part of the book while implementing a driver.
+(40) {7451} [7607]: --&gt;The basic mac80211 driver interface You should read and understand the information contained within this part of the book while implementing a driver.
+*****************************************************************
+========================= CLASS #11 =============================
+(11) {2065} [2137]: In some chapters, advanced usage is noted, that may be skipped at first.
+(41) {7608} [7680]: In some chapters, advanced usage is noted, that may be skipped at first.
+*****************************************************************
+========================= CLASS #12 =============================
+(12) {2139} [2316]: This part of the book only covers station and monitor mode functionality, additional information required to implement the other modes is covered in the second part of the book.
+(42) {7682} [7859]: This part of the book only covers station and monitor mode functionality, additional information required to implement the other modes is covered in the second part of the book.
+*****************************************************************
+========================= CLASS #13 =============================
+(13) {2317} [2445]: Basic hardware handlingTBD This chapter shall contain information on getting a hw struct allocated and registered with mac80211.
+(43) {7860} [7988]: Basic hardware handlingTBD This chapter shall contain information on getting a hw struct allocated and registered with mac80211.
+*****************************************************************
+========================= CLASS #14 =============================
+(14) {2447} [2604]: Since it is required to allocate rates/modes before registering a hw struct, this chapter shall also contain information on setting up the rate/mode structs.
+(44) {7990} [8147]: Since it is required to allocate rates/modes before registering a hw struct, this chapter shall also contain information on setting up the rate/mode structs.
+*****************************************************************
+========================= CLASS #15 =============================
+(15) {2606} [2783]: Additionally, some discussion about the callbacks and the general programming model should be in here, including the definition of ieee80211_ops which will be referred to a lot.
+(45) {8149} [8326]: Additionally, some discussion about the callbacks and the general programming model should be in here, including the definition of ieee80211_ops which will be referred to a lot.
+*****************************************************************
+========================= CLASS #16 =============================
+(16) {2785} [2890]: Finally, a discussion of hardware capabilities should be done with references to other parts of the book.
+(46) {8328} [8433]: Finally, a discussion of hardware capabilities should be done with references to other parts of the book.
+*****************************************************************
+========================= CLASS #17 =============================
+(17) {2891} [3084]: &lt;!-- intentionally multiple !F lines to get proper order --&gt; PHY configurationTBD This chapter should describe PHY handling including start/stop callbacks and the various structures used.
+(47) {8434} [8627]: &lt;!-- intentionally multiple !F lines to get proper order --&gt; PHY configurationTBD This chapter should describe PHY handling including start/stop callbacks and the various structures used.
+*****************************************************************
+========================= CLASS #18 =============================
+(18) {3086} [3220]: Virtual interfacesTBD This chapter should describe virtual interface basics that are relevant to the driver (VLANs, MGMT etc are not.)
+(48) {8629} [8763]: Virtual interfacesTBD This chapter should describe virtual interface basics that are relevant to the driver (VLANs, MGMT etc are not.)
+*****************************************************************
+========================= CLASS #19 =============================
+(19) {3221} [3336]: It should explain the use of the add_iface/remove_iface callbacks as well as the interface configuration callbacks.
+(49) {8764} [8879]: It should explain the use of the add_iface/remove_iface callbacks as well as the interface configuration callbacks.
+*****************************************************************
+========================= CLASS #20 =============================
+(20) {3337} [3389]: Things related to AP mode should be discussed there.
+(50) {8880} [8932]: Things related to AP mode should be discussed there.
+*****************************************************************
+========================= CLASS #21 =============================
+(21) {3390} [3602]: Things related to supporting multiple interfaces should be in the appropriate chapter, a BIG FAT note should be here about this though and the recommendation to allow only a single interface in STA mode at first!
+(51) {8933} [9145]: Things related to supporting multiple interfaces should be in the appropriate chapter, a BIG FAT note should be here about this though and the recommendation to allow only a single interface in STA mode at first!
+*****************************************************************
+========================= CLASS #22 =============================
+(22) {3604} [3770]: Receive and transmit processingwhat should be hereTBD This should describe the receive and transmit paths in mac80211/the drivers as well as transmit status handling.
+(52) {9147} [9313]: Receive and transmit processingwhat should be hereTBD This should describe the receive and transmit paths in mac80211/the drivers as well as transmit status handling.
+*****************************************************************
+========================= CLASS #23 =============================
+(23) {3771} [4109]: Frame format Packet alignment Calling into mac80211 from interrupts functions/definitions Frame filtering The mac80211 workqueue Advanced driver interface Information contained within this part of the book is of interest only for advanced interaction of mac80211 with drivers to exploit more hardware capabilities and improve performance.
+(53) {9314} [9652]: Frame format Packet alignment Calling into mac80211 from interrupts functions/definitions Frame filtering The mac80211 workqueue Advanced driver interface Information contained within this part of the book is of interest only for advanced interaction of mac80211 with drivers to exploit more hardware capabilities and improve performance.
+*****************************************************************
+========================= CLASS #24 =============================
+(24) {4110} [4170]: LED support Mac80211 supports various ways of blinking LEDs.
+(54) {9653} [9713]: LED support Mac80211 supports various ways of blinking LEDs.
+*****************************************************************
+========================= CLASS #25 =============================
+(25) {4171} [4338]: Wherever possible, device LEDs should be exposed as LED class devices and hooked up to the appropriate trigger, which will then be triggered appropriately by mac80211.
+(55) {9714} [9881]: Wherever possible, device LEDs should be exposed as LED class devices and hooked up to the appropriate trigger, which will then be triggered appropriately by mac80211.
+*****************************************************************
+========================= CLASS #26 =============================
+(26) {4340} [4681]: Hardware crypto acceleration &lt;!-- intentionally multiple !F lines to get proper order --&gt; Powersave support Beacon filter support Multiple queues and QoS supportTBD Access point mode supportTBDSome parts of the if_conf should be discussed here instead Insert notes about VLAN interfaces with hw crypto here or in the hw crypto chapter.
+(56) {9883} [10224]: Hardware crypto acceleration &lt;!-- intentionally multiple !F lines to get proper order --&gt; Powersave support Beacon filter support Multiple queues and QoS supportTBD Access point mode supportTBDSome parts of the if_conf should be discussed here instead Insert notes about VLAN interfaces with hw crypto here or in the hw crypto chapter.
+*****************************************************************
+========================= CLASS #27 =============================
+(27) {4682} [5009]: support for powersaving clients Supporting multiple virtual interfacesTBD Note: WDS with identical MAC address should almost always be OK Insert notes about having multiple virtual interfaces with different MAC addresses here, note which configurations are supported by mac80211, add notes about supporting hw crypto with it.
+(57) {10225} [10552]: support for powersaving clients Supporting multiple virtual interfacesTBD Note: WDS with identical MAC address should almost always be OK Insert notes about having multiple virtual interfaces with different MAC addresses here, note which configurations are supported by mac80211, add notes about supporting hw crypto with it.
+*****************************************************************
+========================= CLASS #28 =============================
+(28) {5011} [5289]: Station handlingTODO Hardware scan offloadTBD AggregationTX A-MPDU aggregation RX A-MPDU aggregation Spatial Multiplexing Powersave (SMPS) Rate control interfaceTBD This part of the book describes the rate control algorithm interface and how it relates to mac80211 and drivers.
+(58) {10554} [10832]: Station handlingTODO Hardware scan offloadTBD AggregationTX A-MPDU aggregation RX A-MPDU aggregation Spatial Multiplexing Powersave (SMPS) Rate control interfaceTBD This part of the book describes the rate control algorithm interface and how it relates to mac80211 and drivers.
+*****************************************************************
+========================= CLASS #29 =============================
+(29) {5290} [5374]: Rate Control APITBD InternalsTBD This part of the book describes mac80211 internals.
+(59) {10833} [10917]: Rate Control APITBD InternalsTBD This part of the book describes mac80211 internals.
+*****************************************************************
+========================= CLASS #30 =============================
+(30) {5375} [5950]: Key handlingKey handling basics MORE TBDTBDReceive processingTBDTransmit processingTBDStation info handlingProgramming information STA information lifetime rules Aggregation STA SynchronisationTBDLocking, lots of RCUThe 802.11 subsystems &amp;ndash; for kernel developers Explaining wireless 802.11 networking in the Linux kernel 2007-2009Johannes BergJohannesBergjohannes@sipsolutions.net This documentation is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 as published by the Free Software Foundation.
+(2606) {366216} [366399]: This documentation is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 as published by the Free Software Foundation.
+(2692) {377842} [378098]: SCSI Interfaces GuideJamesBottomleyJames.Bottomley@hansenpartnership.comRobLandleyrob@landley.net2007Linux Foundation This documentation is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2.
+*****************************************************************
+========================= CLASS #31 =============================
+(60) {10918} [11542]: Key handlingKey handling basics MORE TBDTBDReceive processingTBDTransmit processingTBDStation info handlingProgramming information STA information lifetime rules Aggregation SynchronisationTBDLocking, lots of RCU&lt;!-- ****************************************************** --&gt;&lt;!-- Header --&gt;&lt;!-- ****************************************************** --&gt;The ALSA Driver API This document is free; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+(167) {23897} [24163]: Linux Device Drivers This documentation is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+(229) {33061} [33414]: Bus-Independent Device AccessesMatthewWilcoxmatthew@wil.cxAlanCoxalan@lxorguk.ukuu.org.uk2001Matthew Wilcox This documentation is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+(901) {123055} [123322]: Linux Filesystems API This documentation is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+(966) {132282} [132580]: USB Gadget API for Linux20 August 200420 August 2004 This documentation is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+(1217) {169811} [170199]: Credits The following people have contributed to this document: Thomas Gleixnertglx@linutronix.deIngo Molnarmingo@elte.hu The Linux Kernel API This documentation is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+(1241) {174309} [174649]: Unreliable Guide To Hacking The Linux KernelRustyRussellrusty@rustcorp.com.au2005Rusty Russell This documentation is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+(1480) {202692} [203015]: Unreliable Guide To LockingRustyRussellrusty@rustcorp.com.au2003Rusty Russell This documentation is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+(2601) {364791} [365168]: The following people have contributed to this document: Thomas Gleixnertglx@linutronix.de Linux Networking and Network Devices APIs This documentation is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+(2662) {374186} [374431]: This documentation is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+(2752) {386707} [387174]: Memory ManagementSH-4Store Queue API SH-5TLB Interfaces Machine Specific Interfacesmach-dreamcast mach-x3proto BussesSuperHyway Maple The Linux Kernel Tracepoint APIJasonBaronjbaron@redhat.comWilliamCohenwcohen@redhat.com This documentation is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+(3007) {415247} [415540]: Linutronix homepage.The Linux-USB Host Side API This documentation is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+(3232) {445144} [445428]: Copyright (c) 2002-2005 Takashi Iwai tiwai@suse.de This document is free; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+(4133) {572401} [572731]: Writing USB Device DriversGregKroah-Hartmangreg@kroah.com2001-2002Greg Kroah-Hartman This documentation is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+*****************************************************************
+========================= CLASS #32 =============================
+(63) {11779} [12695]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA Management of Cards and DevicesCard Management Device Components Module requests and Device File Entries Memory Management Helpers PCM APIPCM Core PCM Format Helpers PCM Memory Management Control/Mixer APIGeneral Control Interface AC97 Codec API Virtual Master Control API MIDI APIRaw MIDI API MPU401-UART API Proc Info APIProc Info Interface Miscellaneous FunctionsHardware-Dependent Devices API Jack Abstraction Layer API ISA DMA Helpers Other Helper Macros Debug objects life timeThomasGleixnertglx@linutronix.de2008Thomas Gleixner This documentation is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 as published by the Free Software Foundation.
+(2261) {315171} [315448]: Reed-Solomon Library Programming InterfaceThomasGleixnertglx@linutronix.de2004Thomas Gleixner This documentation is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 as published by the Free Software Foundation.
+(2748) {386014} [386197]: This documentation is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 as published by the Free Software Foundation.
+*****************************************************************
+========================= CLASS #33 =============================
+(76) {14957} [15110]: Debug functionsDebug object function reference debug_object_init This function is called whenever the initialization function of a real object is called.
+(88) {16094} [16236]: debug_object_init_on_stack This function is called whenever the initialization function of a real object which resides on the stack is called.
+*****************************************************************
+========================= CLASS #34 =============================
+(77) {15112} [15221]: When the real object is already tracked by debugobjects it is checked, whether the object can be initialized.
+(89) {16238} [16347]: When the real object is already tracked by debugobjects it is checked, whether the object can be initialized.
+(100) {17263} [17370]: When the real object is already tracked by debugobjects it is checked, whether the object can be activated.
+(111) {18340} [18441]: When the real object is tracked by debugobjects it is checked, whether the object can be deactivated.
+(116) {18863} [18962]: When the real object is tracked by debugobjects it is checked, whether the object can be destroyed.
+(124) {19537} [19632]: When the real object is tracked by debugobjects it is checked, whether the object can be freed.
+*****************************************************************
+========================= CLASS #35 =============================
+(78) {15223} [15284]: Initializing is not allowed for active and destroyed objects.
+(90) {16348} [16409]: Initializing is not allowed for active and destroyed objects.
+(101) {17372} [17431]: Activating is not allowed for active and destroyed objects.
+(117) {18963} [19023]: Destruction is not allowed for active and destroyed objects.
+*****************************************************************
+========================= CLASS #36 =============================
+(79) {15285} [15426]: When debugobjects detects an error, then it calls the fixup_init function of the object type description structure if provided by the caller.
+(91) {16410} [16551]: When debugobjects detects an error, then it calls the fixup_init function of the object type description structure if provided by the caller.
+(102) {17432} [17577]: When debugobjects detects an error, then it calls the fixup_activate function of the object type description structure if provided by the caller.
+(118) {19024} [19168]: When debugobjects detects an error, then it calls the fixup_destroy function of the object type description structure if provided by the caller.
+(126) {19673} [19814]: When debugobjects detects an error, then it calls the fixup_free function of the object type description structure if provided by the caller.
+*****************************************************************
+========================= CLASS #37 =============================
+(80) {15427} [15523]: The fixup function can correct the problem before the real initialization of the object happens.
+(92) {16552} [16648]: The fixup function can correct the problem before the real initialization of the object happens.
+(103) {17578} [17670]: The fixup function can correct the problem before the real activation of the object happens.
+(119) {19169} [19262]: The fixup function can correct the problem before the real destruction of the object happens.
+(127) {19815} [19901]: The fixup function can correct the problem before the real free of the object happens.
+*****************************************************************
+========================= CLASS #38 =============================
+(82) {15529} [15608]: it can deactivate an active object in order to prevent damage to the subsystem.
+(94) {16654} [16733]: it can deactivate an active object in order to prevent damage to the subsystem.
+(105) {17676} [17755]: it can deactivate an active object in order to prevent damage to the subsystem.
+(121) {19268} [19347]: it can deactivate an active object in order to prevent damage to the subsystem.
+(129) {19907} [19986]: it can deactivate an active object in order to prevent damage to the subsystem.
+*****************************************************************
+========================= CLASS #39 =============================
+(83) {15610} [15782]: When the real object is not yet tracked by debugobjects, debugobjects allocates a tracker object for the real object and sets the tracker object state to ODEBUG_STATE_INIT.
+(95) {16735} [16906]: When the real object is not yet tracked by debugobjects debugobjects allocates a tracker object for the real object and sets the tracker object state to ODEBUG_STATE_INIT.
+(106) {17757} [17869]: When the real object is not yet tracked by debugobjects then the fixup_activate function is called if available.
+*****************************************************************
+========================= CLASS #40 =============================
+(84) {15783} [15839]: It verifies that the object is not on the callers stack.
+(96) {16907} [16959]: It verifies that the object is on the callers stack.
+*****************************************************************
+========================= CLASS #41 =============================
+(99) {17155} [17261]: debug_object_activate This function is called whenever the activation function of a real object is called.
+(110) {18228} [18338]: debug_object_deactivate This function is called whenever the deactivation function of a real object is called.
+*****************************************************************
+========================= CLASS #42 =============================
+(109) {18114} [18227]: When the activation is legitimate, then the state of the associated tracker object is set to ODEBUG_STATE_ACTIVE.
+(113) {18507} [18624]: When the deactivation is legitimate, then the state of the associated tracker object is set to ODEBUG_STATE_INACTIVE.
+(122) {19349} [19466]: When the destruction is legitimate, then the state of the associated tracker object is set to ODEBUG_STATE_DESTROYED.
+*****************************************************************
+========================= CLASS #43 =============================
+(136) {20601} [20763]: Fixup functionsDebug object type description structure fixup_init This function is called from the debug code whenever a problem in debug_object_init is detected.
+(141) {21216} [21331]: fixup_activate This function is called from the debug code whenever a problem in debug_object_activate is detected.
+(150) {22250} [22363]: fixup_destroy This function is called from the debug code whenever a problem in debug_object_destroy is detected.
+(153) {22563} [22670]: fixup_free This function is called from the debug code whenever a problem in debug_object_free is detected.
+(157) {23047} [23168]: fixup_assert_init This function is called from the debug code whenever a problem in debug_object_assert_init is detected.
+*****************************************************************
+========================= CLASS #44 =============================
+(138) {20868} [21011]: Called from debug_object_init when the object state is: ODEBUG_STATE_ACTIVE The function returns 1 when the fixup was successful, otherwise 0.
+(142) {21333} [21505]: Called from debug_object_activate when the object state is: ODEBUG_STATE_NOTAVAILABLEODEBUG_STATE_ACTIVE The function returns 1 when the fixup was successful, otherwise 0.
+(151) {22365} [22511]: Called from debug_object_destroy when the object state is: ODEBUG_STATE_ACTIVE The function returns 1 when the fixup was successful, otherwise 0.
+(155) {22820} [22995]: Called from debug_object_free() or debug_check_no_obj_freed() when the object state is: ODEBUG_STATE_ACTIVE The function returns 1 when the fixup was successful, otherwise 0.
+(159) {23309} [23375]: The function returns 1 when the fixup was successful, otherwise 0.
+*****************************************************************
+========================= CLASS #45 =============================
+(139) {21012} [21062]: The return value is used to update the statistics.
+(143) {21506} [21556]: The return value is used to update the statistics.
+(152) {22512} [22562]: The return value is used to update the statistics.
+(156) {22996} [23046]: The return value is used to update the statistics.
+(160) {23376} [23426]: The return value is used to update the statistics.
+*****************************************************************
+========================= CLASS #46 =============================
+(140) {21064} [21215]: Note, that the function needs to call the debug_object_init() function again, after the damage has been repaired in order to keep the state consistent.
+(144) {21558} [21711]: Note that the function needs to call the debug_object_activate() function again after the damage has been repaired in order to keep the state consistent.
+*****************************************************************
+========================= CLASS #47 =============================
+(145) {21713} [21780]: The activation of statically initialized objects is a special case.
+(162) {23514} [23579]: The handling of statically initialized objects is a special case.
+*****************************************************************
+========================= CLASS #48 =============================
+(147) {21933} [22043]: The fixup function needs to check whether this is a legitimate case of a statically initialized object or not.
+(163) {23580} [23683]: The fixup function should check if this is a legitimate case of a statically initialized object or not.
+*****************************************************************
+========================= CLASS #49 =============================
+(149) {22174} [22249]: In this case the function should return 0 because this is not a real fixup.
+(165) {23780} [23847]: Then the function should return 0 because this is not a real fixup.
+*****************************************************************
+========================= CLASS #50 =============================
+(166) {23848} [23896]: Known Bugs And Assumptions None (knock on wood).
+(234) {34085} [34117]: Known Bugs And Assumptions None.
+(1176) {161873} [161921]: Known Bugs And Assumptions None (knock on wood).
+(2268) {316267} [316299]: Known Bugs And Assumptions None.
+(2390) {333864} [333896]: Known Bugs And Assumptions None.
+*****************************************************************
+========================= CLASS #51 =============================
+(200) {29303} [29395]: The programming interface is structured around two kinds of driver, and two kinds of device.
+(216) {31474} [31566]: The programming interface is structured around two kinds of driver, and two kinds of device.
+*****************************************************************
+========================= CLASS #52 =============================
+(272) {38522} [38908]: CPU A: spin_lock_irqsave(&amp;amp;dev_lock, flags) CPU A: ... CPU A: writel(newval, ring_ptr); CPU A: spin_unlock_irqrestore(&amp;amp;dev_lock, flags) ... CPU B: spin_lock_irqsave(&amp;amp;dev_lock, flags) CPU B: writel(newval2, ring_ptr); CPU B: ... CPU B: spin_unlock_irqrestore(&amp;amp;dev_lock, flags) In the case above, newval2 could be written to ring_ptr before newval.
+(273) {38910} [39621]: Fixing it is easy though: CPU A: spin_lock_irqsave(&amp;amp;dev_lock, flags) CPU A: ... CPU A: writel(newval, ring_ptr); CPU A: mmiowb(); /* ensure no other writes beat us to the device */ CPU A: spin_unlock_irqrestore(&amp;amp;dev_lock, flags) ... CPU B: spin_lock_irqsave(&amp;amp;dev_lock, flags) CPU B: writel(newval2, ring_ptr); CPU B: ... CPU B: mmiowb(); CPU B: spin_unlock_irqrestore(&amp;amp;dev_lock, flags) See tg3.c for a real world example of how to use mmiowb PCI ordering rules also guarantee that PIO read responses arrive after any outstanding DMA writes from that bus, since for some devices the result of a readb call may signal to the driver that a DMA transaction is complete.
+*****************************************************************
+========================= CLASS #53 =============================
+(290) {41151} [41572]: Public Functions Provided Linux DRM Developer&#39;s GuideJesseBarnesInitial versionIntel Corporationjesse.barnes@intel.comLaurentPinchartDriver internalsIdeas on board SPRLlaurent.pinchart@ideasonboard.com2008-20092012Intel CorporationLaurent Pinchart The contents of this file may be used under the terms of the GNU General Public License version 2 (the &quot;GPL&quot;) as distributed in the kernel source COPYING file.
+(1927) {278442} [278703]: Alternatively, the contents of this file may be used under the terms of the GNU General Public License version 2 (the &quot;GPL&quot;) as distributed in the kernel source COPYING file, in which case the provisions of the GPL are applicable instead of the above.
+*****************************************************************
+========================= CLASS #54 =============================
+(324) {45443} [45571]: The information is printed to the kernel log at initialization time and passed to userspace through the DRM_IOCTL_VERSION ioctl.
+(333) {46629} [46756]: The DRM core prints it to the kernel log at initialization time and passes it to userspace through the DRM_IOCTL_VERSION ioctl.
+*****************************************************************
+========================= CLASS #55 =============================
+(356) {49755} [49905]: The operation is optional and must make sure that the interrupt will not get fired by clearing all pending interrupt flags or disabling the interrupt.
+(580) {81141} [81167]: The operation is optional.
+*****************************************************************
+========================= CLASS #56 =============================
+(553) {77333} [77502]: The instance is allocated and zeroed by the driver, possibly as part of a larger structure, and registered with a call to drm_crtc_init with a pointer to CRTC functions.
+(604) {83722} [83813]: The instance is allocated and zeroed by the driver, possibly as part of a larger structure.
+*****************************************************************
+========================= CLASS #57 =============================
+(557) {77995} [78051]: This operation is called with the mode config lock held.
+(561) {78333} [78390]: This operation is called with the mode config mutex held.
+*****************************************************************
+========================= CLASS #58 =============================
+(574) {80051} [80467]: This can be performed with spin_lock_irqsave(&amp;amp;dev-&amp;gt;event_lock, flags); ... drm_send_vblank_event(dev, pipe, event); spin_unlock_irqrestore(&amp;amp;dev-&amp;gt;event_lock, flags); FIXME: Could drivers that don&#39;t need to wait for rendering to complete just add the event to dev-&amp;gt;vblank_event_list and let the DRM core handle everything, as for &quot;normal&quot; vertical blanking events?
+(1967) {284018} [284061]: Most drivers don&#39;t need to define this.
+(3495) {491008} [491072]: Above all, you&#39;ll need to define this in the open callback.
+*****************************************************************
+========================= CLASS #59 =============================
+(577) {80810} [80965]: Miscellaneousvoid (*set_property)(struct drm_crtc *crtc, struct drm_property *property, uint64_t value); Set the value of the given CRTC property to value.
+(655) {90644} [90814]: Miscellaneousvoid (*set_property)(struct drm_connector *connector, struct drm_property *property, uint64_t value); Set the value of the given connector property to value.
+*****************************************************************
+========================= CLASS #60 =============================
+(578) {80966} [81008]: See for more information about properties.
+(615) {85067} [85109]: See for more information about properties.
+(656) {90815} [90857]: See for more information about properties.
+*****************************************************************
+========================= CLASS #61 =============================
+(583) {81256} [81399]: Planes (struct drm_plane) A plane represents an image source that can be blended with or overlayed on top of a CRTC during the scanout process.
+(585) {81536} [81598]: The result is then blended with or overlayed on top of a CRTC.
+*****************************************************************
+========================= CLASS #62 =============================
+(692) {96971} [97173]: CRTC Helper Operationsbool (*mode_fixup)(struct drm_crtc *crtc, const struct drm_display_mode *mode, struct drm_display_mode *adjusted_mode); Let CRTCs adjust the requested mode or reject it completely.
+(712) {99109} [99323]: Encoder Helper Operationsbool (*mode_fixup)(struct drm_encoder *encoder, const struct drm_display_mode *mode, struct drm_display_mode *adjusted_mode); Let encoders adjust the requested mode or reject it completely.
+*****************************************************************
+========================= CLASS #63 =============================
+(693) {97174} [97285]: This operation returns true if the mode is accepted (possibly after being adjusted) or false if it is rejected.
+(713) {99324} [99435]: This operation returns true if the mode is accepted (possibly after being adjusted) or false if it is rejected.
+*****************************************************************
+========================= CLASS #64 =============================
+(704) {98322} [98383]: This operation is called after validating the requested mode.
+(716) {99608} [99669]: This operation is called after validating the requested mode.
+*****************************************************************
+========================= CLASS #65 =============================
+(705) {98384} [98474]: Drivers use it to perform device-specific operations required before setting the new mode.
+(717) {99670} [99760]: Drivers use it to perform device-specific operations required before setting the new mode.
+*****************************************************************
+========================= CLASS #66 =============================
+(707) {98675} [98840]: Depending on the device requirements, the mode can be stored internally by the driver and applied in the commit operation, or programmed to the hardware immediately.
+(719) {99895} [100060]: Depending on the device requirements, the mode can be stored internally by the driver and applied in the commit operation, or programmed to the hardware immediately.
+*****************************************************************
+========================= CLASS #67 =============================
+(710) {98985} [99037]: This operation is called after setting the new mode.
+(721) {100121} [100173]: This operation is called after setting the new mode.
+*****************************************************************
+========================= CLASS #68 =============================
+(711) {99038} [99108]: Upon return the device must use the new mode and be fully operational.
+(722) {100174} [100244]: Upon return the device must use the new mode and be fully operational.
+*****************************************************************
+========================= CLASS #69 =============================
+(725) {100494} [100522]: This operation is mandatory.
+(727) {100775} [100803]: This operation is mandatory.
+(745) {104144} [104172]: This operation is mandatory.
+*****************************************************************
+========================= CLASS #70 =============================
+(741) {103521} [103764]: When creating modes manually the get_modes helper operation must set the display_info width_mm and height_mm fields if they haven&#39;t been set already (for instance at initilization time when a fixed-size panel is attached to the connector).
+(4071) {563860} [563882]: Let&#39;s set them up.
+*****************************************************************
+========================= CLASS #71 =============================
+(765) {107041} [107420]: struct drm_property *drm_property_create_range(struct drm_device *dev, int flags, const char *name, uint64_t min, uint64_t max);Create a range property with the given minimum and maximum values.struct drm_property *drm_property_create_enum(struct drm_device *dev, int flags, const char *name, const struct drm_prop_enum_list *props, int num_values);Create an enumerated property.
+(766) {107421} [107674]: The props argument points to an array of num_values value-name pairs.struct drm_property *drm_property_create_bitmask(struct drm_device *dev, int flags, const char *name, const struct drm_prop_enum_list *props, int num_values);Create a bitmask property.
+(767) {107421} [107490]: The props argument points to an array of num_values value-name pairs.
+*****************************************************************
+========================= CLASS #72 =============================
+(808) {112554} [112668]: Drivers can allocate per-file private data in this method and store them in the struct drm_file driver_priv field.
+(815) {113216} [113305]: Drivers that have allocated per-file private data in the open method should free it here.
+*****************************************************************
+========================= CLASS #73 =============================
+(857) {118124} [118249]: - crtc and connector .save and .restore operations are only used internally in drivers, should they be removed from the core?
+(858) {118250} [118374]: - encoder mid-layer .save and .restore operations are only used internally in drivers, should they be removed from the core?
+(859) {118375} [118484]: - encoder mid-layer .detect operation is only used internally in drivers, should it be removed from the core?
+*****************************************************************
+========================= CLASS #74 =============================
+(1012) {139295} [139526]: OTG-capable systems will also need to include a standard Linux-USB host side stack, with usbcore, one or more Host Controller Drivers (HCDs), USB Device Drivers to support the OTG &quot;Targeted Peripheral List&quot;, and so forth.
+(1138) {156057} [156147]: Also on the host side, a driver must support the OTG &quot;Targeted Peripheral List&quot;.
+*****************************************************************
+========================= CLASS #75 =============================
+(1029) {141733} [141874]: You&#39;ll have to read the header file, and use example source code (such as that for &quot;Gadget Zero&quot;), to fully understand the API.
+(1370) {189520} [189548]: See the header file for use.
+*****************************************************************
+========================= CLASS #76 =============================
+(1103) {151387} [151505]: Support for other controllers is expected to be developed and contributed over time, as this driver framework evolves.
+(1125) {154168} [154290]: Support for other kinds of gadget is expected to be developed and contributed over time, as this driver framework evolves.
+*****************************************************************
+========================= CLASS #77 =============================
+(1139) {156149} [156247]: That&#39;s just a whitelist, used to reject peripherals not supported with a given Linux OTG host.
+(2939) {405738} [405775]: That&#39;s what uio_pdrv_genirq does.
+(3197) {440664} [440699]: (That&#39;s not usually a problem.)
+(3446) {476436} [476473]: EXPORT_NO_SYMBOLS; That&#39;s all!
+*****************************************************************
+========================= CLASS #78 =============================
+(1186) {164400} [164757]: The following control flow is implemented (simplified excerpt): desc-&amp;gt;irq_data.chip-&amp;gt;irq_mask_ack(); handle_irq_event(desc-&amp;gt;action); desc-&amp;gt;irq_data.chip-&amp;gt;irq_unmask(); Default Fast EOI IRQ flow handler handle_fasteoi_irq provides a generic implementation for interrupts, which only need an EOI at the end of the handler.
+(1187) {164759} [165020]: The following control flow is implemented (simplified excerpt): handle_irq_event(desc-&amp;gt;action); desc-&amp;gt;irq_data.chip-&amp;gt;irq_eoi(); Default Edge IRQ flow handler handle_edge_irq provides a generic implementation for edge-triggered interrupts.
+(1190) {165748} [165957]: The following control flow is implemented (simplified excerpt): handle_irq_event(desc-&amp;gt;action); Default per CPU flow handler handle_percpu_irq provides a generic implementation for per CPU interrupts.
+*****************************************************************
+========================= CLASS #79 =============================
+(1188) {165022} [165672]: The following control flow is implemented (simplified excerpt): if (desc-&amp;gt;status &amp;amp; running) { desc-&amp;gt;irq_data.chip-&amp;gt;irq_mask_ack(); desc-&amp;gt;status |= pending | masked; return; } desc-&amp;gt;irq_data.chip-&amp;gt;irq_ack(); desc-&amp;gt;status |= running; do { if (desc-&amp;gt;status &amp;amp; masked) desc-&amp;gt;irq_data.chip-&amp;gt;irq_unmask(); desc-&amp;gt;status &amp;amp;= ~pending; handle_irq_event(desc-&amp;gt;action); } while (status &amp;amp; pending); desc-&amp;gt;status &amp;amp;= ~running; Default simple IRQ flow handler handle_simple_irq provides a generic implementation for simple interrupts.
+(1192) {166068} [166530]: The following control flow is implemented (simplified excerpt): if (desc-&amp;gt;irq_data.chip-&amp;gt;irq_ack) desc-&amp;gt;irq_data.chip-&amp;gt;irq_ack(); handle_irq_event(desc-&amp;gt;action); if (desc-&amp;gt;irq_data.chip-&amp;gt;irq_eoi) desc-&amp;gt;irq_data.chip-&amp;gt;irq_eoi(); EOI Edge IRQ flow handler handle_edge_eoi_irq provides an abnomination of the edge handler which is solely used to tame a badly wreckaged irq controller on powerpc/cell.
+*****************************************************************
+========================= CLASS #80 =============================
+(1215) {169572} [169699]: Public Functions Provided This chapter contains the autogenerated documentation of the kernel API functions which are exported.
+(1216) {169701} [169809]: Internal Functions Provided This chapter contains the autogenerated documentation of the internal functions.
+(2306) {320525} [320654]: Public Functions Provided This chapter contains the autogenerated documentation of the Reed-Solomon functions which are exported.
+*****************************************************************
+========================= CLASS #81 =============================
+(1246) {175234} [175338]: Introduction Welcome, gentle reader, to Rusty&#39;s Remarkably Unreliable Guide to Linux Kernel Hacking.
+(1484) {203525} [203615]: Introduction Welcome, to Rusty&#39;s Remarkably Unreliable Guide to Kernel Locking issues.
+*****************************************************************
+========================= CLASS #82 =============================
+(1265) {177557} [177728]: Because it disables interrupts, this handler has to be fast: frequently it simply acknowledges the interrupt, marks a &#39;software interrupt&#39; for execution and exits.
+(1754) {247907} [247990]: Tasklets and softirqs both fall into the category of &#39;software interrupts&#39;.
+*****************************************************************
+========================= CLASS #83 =============================
+(1307) {182576} [182731]: Note that some functions may sleep implicitly: common ones are the user space access functions (*_user) and memory allocation functions without GFP_ATOMIC.
+(1326) {184742} [184777]: The functions may sleep implicitly.
+*****************************************************************
+========================= CLASS #84 =============================
+(1530) {208971} [209156]: This works perfectly for UP as well: the spin lock vanishes, and this macro simply becomes local_bh_disable() (include/linux/interrupt.h), which protects you from the softirq being run.
+(1552) {211593} [211782]: This works perfectly for UP as well: the spin lock vanishes, and this macro simply becomes local_irq_disable() (include/asm/smp.h), which protects you from the softirq/tasklet/BH being run.
+*****************************************************************
+========================= CLASS #85 =============================
+(1541) {210393} [210462]: You&#39;ll need to use spin_lock() and spin_unlock() for shared data.
+(4104) {569228} [569285]: You don&#39;t need to give the lowlevel selections again.
+*****************************************************************
+========================= CLASS #86 =============================
+(1578) {215343} [217485]: Here&#39;s the code: #include &amp;lt;linux/list.h&amp;gt; #include &amp;lt;linux/slab.h&amp;gt; #include &amp;lt;linux/string.h&amp;gt; #include &amp;lt;linux/mutex.h&amp;gt; #include &amp;lt;asm/errno.h&amp;gt; struct object { struct list_head list; int id; char name[32]; int popularity; }; /* Protects the cache, cache_num, and the objects within it */ static DEFINE_MUTEX(cache_lock); static LIST_HEAD(cache); static unsigned int cache_num = 0; #define MAX_CACHE_SIZE 10 /* Must be holding cache_lock */ static struct object *__cache_find(int id) { struct object *i; list_for_each_entry(i, &amp;amp;cache, list) if (i-&amp;gt;id == id) { i-&amp;gt;popularity++; return i; } return NULL; } /* Must be holding cache_lock */ static void __cache_delete(struct object *obj) { BUG_ON(!obj); list_del(&amp;amp;obj-&amp;gt;list); kfree(obj); cache_num--; } /* Must be holding cache_lock */ static void __cache_add(struct object *obj) { list_add(&amp;amp;obj-&amp;gt;list, &amp;amp;cache); if (++cache_num &amp;gt; MAX_CACHE_SIZE) { struct object *i, *outcast = NULL; list_for_each_entry(i, &amp;amp;cache, list) { if (!outcast || i-&amp;gt;popularity &amp;lt; outcast-&amp;gt;popularity) outcast = i; } __cache_delete(outcast); } } int cache_add(int id, const char *name) { struct object *obj; if ((obj = kmalloc(sizeof(*obj), GFP_KERNEL)) == NULL) return -ENOMEM; strlcpy(obj-&amp;gt;name, name, sizeof(obj-&amp;gt;name)); obj-&amp;gt;id = id; obj-&amp;gt;popularity = 0; mutex_lock(&amp;amp;cache_lock); __cache_add(obj); mutex_unlock(&amp;amp;cache_lock); return 0; } void cache_delete(int id) { mutex_lock(&amp;amp;cache_lock); __cache_delete(__cache_find(id)); mutex_unlock(&amp;amp;cache_lock); } int cache_find(int id, char *name) { struct object *obj; int ret = -ENOENT; mutex_lock(&amp;amp;cache_lock); obj = __cache_find(id); if (obj) { ret = 0; strcpy(name, obj-&amp;gt;name); } mutex_unlock(&amp;amp;cache_lock); return ret; } Note that we always make sure we have the cache_lock when we add, delete, or look up the cache: both the cache infrastructure itself and the contents of the objects are protected by the lock.
+(1698) {239663} [240104]: --- cache.c.perobjectlock 2003-12-11 17:15:03.000000000 +1100 +++ cache.c.rcupdate 2003-12-11 17:55:14.000000000 +1100 @@ -1,15 +1,18 @@ #include &amp;lt;linux/list.h&amp;gt; #include &amp;lt;linux/slab.h&amp;gt; #include &amp;lt;linux/string.h&amp;gt; +#include &amp;lt;linux/rcupdate.h&amp;gt; #include &amp;lt;linux/mutex.h&amp;gt; #include &amp;lt;asm/errno.h&amp;gt; struct object { - /* These two protected by cache_lock.
+(3325) {458823} [459106]: #include &amp;lt;linux/init.h&amp;gt; #include &amp;lt;linux/pci.h&amp;gt; #include &amp;lt;linux/slab.h&amp;gt; #include &amp;lt;sound/core.h&amp;gt; #include &amp;lt;sound/initval.h&amp;gt; where the last one is necessary only when module options are defined in the source file.
+*****************************************************************
+========================= CLASS #87 =============================
+(1579) {217487} [217599]: In this case it&#39;s easy, since we copy the data for the user, and never let them access the objects directly.
+(3750) {519429} [519489]: In this case, you don&#39;t have to define the put callback.
+*****************************************************************
+========================= CLASS #88 =============================
+(1585) {218143} [219848]: --- cache.c.usercontext 2003-12-09 13:58:54.000000000 +1100 +++ cache.c.interrupt 2003-12-09 14:07:49.000000000 +1100 @@ -12,7 +12,7 @@ int popularity; }; -static DEFINE_MUTEX(cache_lock); +static DEFINE_SPINLOCK(cache_lock); static LIST_HEAD(cache); static unsigned int cache_num = 0; #define MAX_CACHE_SIZE 10 @@ -55,6 +55,7 @@ int cache_add(int id, const char *name) { struct object *obj; + unsigned long flags; if ((obj = kmalloc(sizeof(*obj), GFP_KERNEL)) == NULL) return -ENOMEM; @@ -63,30 +64,33 @@ obj-&amp;gt;id = id; obj-&amp;gt;popularity = 0; - mutex_lock(&amp;amp;cache_lock); + spin_lock_irqsave(&amp;amp;cache_lock, flags); __cache_add(obj); - mutex_unlock(&amp;amp;cache_lock); + spin_unlock_irqrestore(&amp;amp;cache_lock, flags); return 0; } void cache_delete(int id) { - mutex_lock(&amp;amp;cache_lock); + unsigned long flags; + + spin_lock_irqsave(&amp;amp;cache_lock, flags); __cache_delete(__cache_find(id)); - mutex_unlock(&amp;amp;cache_lock); + spin_unlock_irqrestore(&amp;amp;cache_lock, flags); } int cache_find(int id, char *name) { struct object *obj; int ret = -ENOENT; + unsigned long flags; - mutex_lock(&amp;amp;cache_lock); + spin_lock_irqsave(&amp;amp;cache_lock, flags); obj = __cache_find(id); if (obj) { ret = 0; strcpy(name, obj-&amp;gt;name); } - mutex_unlock(&amp;amp;cache_lock); + spin_unlock_irqrestore(&amp;amp;cache_lock, flags); return ret; } Note that the spin_lock_irqsave will turn off interrupts if they are on, otherwise does nothing (if we are already in an interrupt handler), hence these functions are safe to call from any context.
+(2851) {398333} [398360]: const char *name: Required.
+*****************************************************************
+========================= CLASS #89 =============================
+(1597) {221279} [223369]: Here is the code: --- cache.c.interrupt 2003-12-09 14:25:43.000000000 +1100 +++ cache.c.refcnt 2003-12-09 14:33:05.000000000 +1100 @@ -7,6 +7,7 @@ struct object { struct list_head list; + unsigned int refcnt; int id; char name[32]; int popularity; @@ -17,6 +18,35 @@ static unsigned int cache_num = 0; #define MAX_CACHE_SIZE 10 +static void __object_put(struct object *obj) +{ + if (--obj-&amp;gt;refcnt == 0) + kfree(obj); +} + +static void __object_get(struct object *obj) +{ + obj-&amp;gt;refcnt++; +} + +void object_put(struct object *obj) +{ + unsigned long flags; + + spin_lock_irqsave(&amp;amp;cache_lock, flags); + __object_put(obj); + spin_unlock_irqrestore(&amp;amp;cache_lock, flags); +} + +void object_get(struct object *obj) +{ + unsigned long flags; + + spin_lock_irqsave(&amp;amp;cache_lock, flags); + __object_get(obj); + spin_unlock_irqrestore(&amp;amp;cache_lock, flags); +} + /* Must be holding cache_lock */ static struct object *__cache_find(int id) { @@ -35,6 +65,7 @@ { BUG_ON(!obj); list_del(&amp;amp;obj-&amp;gt;list); + __object_put(obj); cache_num--; } @@ -63,6 +94,7 @@ strlcpy(obj-&amp;gt;name, name, sizeof(obj-&amp;gt;name)); obj-&amp;gt;id = id; obj-&amp;gt;popularity = 0; + obj-&amp;gt;refcnt = 1; /* The cache holds a reference */ spin_lock_irqsave(&amp;amp;cache_lock, flags); __cache_add(obj); @@ -79,18 +111,15 @@ spin_unlock_irqrestore(&amp;amp;cache_lock, flags); } -int cache_find(int id, char *name) +struct object *cache_find(int id) { struct object *obj; - int ret = -ENOENT; unsigned long flags; spin_lock_irqsave(&amp;amp;cache_lock, flags); obj = __cache_find(id); - if (obj) { - ret = 0; - strcpy(name, obj-&amp;gt;name); - } + if (obj) + __object_get(obj); spin_unlock_irqrestore(&amp;amp;cache_lock, flags); - return ret; + return obj; } We encapsulate the reference counting in the standard &#39;get&#39; and &#39;put&#39; functions.
+(1606) {224367} [226411]: --- cache.c.refcnt 2003-12-09 15:00:35.000000000 +1100 +++ cache.c.refcnt-atomic 2003-12-11 15:49:42.000000000 +1100 @@ -7,7 +7,7 @@ struct object { struct list_head list; - unsigned int refcnt; + atomic_t refcnt; int id; char name[32]; int popularity; @@ -18,33 +18,15 @@ static unsigned int cache_num = 0; #define MAX_CACHE_SIZE 10 -static void __object_put(struct object *obj) -{ - if (--obj-&amp;gt;refcnt == 0) - kfree(obj); -} - -static void __object_get(struct object *obj) -{ - obj-&amp;gt;refcnt++; -} - void object_put(struct object *obj) { - unsigned long flags; - - spin_lock_irqsave(&amp;amp;cache_lock, flags); - __object_put(obj); - spin_unlock_irqrestore(&amp;amp;cache_lock, flags); + if (atomic_dec_and_test(&amp;amp;obj-&amp;gt;refcnt)) + kfree(obj); } void object_get(struct object *obj) { - unsigned long flags; - - spin_lock_irqsave(&amp;amp;cache_lock, flags); - __object_get(obj); - spin_unlock_irqrestore(&amp;amp;cache_lock, flags); + atomic_inc(&amp;amp;obj-&amp;gt;refcnt); } /* Must be holding cache_lock */ @@ -65,7 +47,7 @@ { BUG_ON(!obj); list_del(&amp;amp;obj-&amp;gt;list); - __object_put(obj); + object_put(obj); cache_num--; } @@ -94,7 +76,7 @@ strlcpy(obj-&amp;gt;name, name, sizeof(obj-&amp;gt;name)); obj-&amp;gt;id = id; obj-&amp;gt;popularity = 0; - obj-&amp;gt;refcnt = 1; /* The cache holds a reference */ + atomic_set(&amp;amp;obj-&amp;gt;refcnt, 1); /* The cache holds a reference */ spin_lock_irqsave(&amp;amp;cache_lock, flags); __cache_add(obj); @@ -119,7 +101,7 @@ spin_lock_irqsave(&amp;amp;cache_lock, flags); obj = __cache_find(id); if (obj) - __object_get(obj); + object_get(obj); spin_unlock_irqrestore(&amp;amp;cache_lock, flags); return obj; } Protecting The Objects Themselves In these examples, we assumed that the objects (except the reference counts) never changed once they are created.
+*****************************************************************
+========================= CLASS #90 =============================
+(1650) {232531} [233138]: If you want to destroy the entire collection (say on module removal), you might do the following: /* THIS CODE BAD BAD BAD BAD: IF IT WAS ANY WORSE IT WOULD USE HUNGARIAN NOTATION */ spin_lock_bh(&amp;amp;list_lock); while (list) { struct foo *next = list-&amp;gt;next; del_timer(&amp;amp;list-&amp;gt;timer); kfree(list); list = next; } spin_unlock_bh(&amp;amp;list_lock); Sooner or later, this will crash on SMP, because a timer can have just gone off before the spin_lock_bh(), and it will only get the lock after we spin_unlock_bh(), and then try to free the element (which has already been freed!).
+(1652) {233244} [233745]: If 0, it means (in this case) that it is currently running, so we can do: retry: spin_lock_bh(&amp;amp;list_lock); while (list) { struct foo *next = list-&amp;gt;next; if (!del_timer(&amp;amp;list-&amp;gt;timer)) { /* Give timer a chance to delete this */ spin_unlock_bh(&amp;amp;list_lock); goto retry; } kfree(list); list = next; } spin_unlock_bh(&amp;amp;list_lock); Another common problem is deleting timers which restart themselves (by calling add_timer() at the end of their timer function).
+*****************************************************************
+========================= CLASS #91 =============================
+(1818) {255934} [256097]: kgdboc argumentsUsage: kgdboc=[kms][[,]kbd][[,]serial_device][,baud]The order listed above must be observed if you use any of the optional configurations together.
+(1820) {256305} [256400]: The order listed above must be observed if you use any of the optional configurations together.
+*****************************************************************
+========================= CLASS #92 =============================
+(1960) {283056} [283138]: Most drivers for taskfile-based hardware use ata_sff_exec_command() for this hook.
+(1965) {283784} [283866]: Most drivers for taskfile-based hardware use ata_sff_check_status() for this hook.
+(1970) {284370} [284450]: Most drivers for taskfile-based hardware use ata_sff_dev_select() for this hook.
+*****************************************************************
+========================= CLASS #93 =============================
+(1962) {283383} [283484]: This hook may be specified as NULL, in which case libata will assume that atapi dma can be supported.
+(2025) {291260} [291327]: This hook may be specified as NULL, in which case it is not called.
+*****************************************************************
+========================= CLASS #94 =============================
+(1979) {285714} [285787]: Most legacy IDE drivers use ata_bmdma_setup() for the bmdma_setup() hook.
+(1981) {285974} [286047]: Most legacy IDE drivers use ata_bmdma_start() for the bmdma_start() hook.
+*****************************************************************
+========================= CLASS #95 =============================
+(1982) {286049} [286129]: ata_bmdma_start() will write the ATA_DMA_START flag to the DMA Command register.
+(1984) {286204} [286279]: ata_bmdma_stop() clears the ATA_DMA_START flag in the DMA command register.
+*****************************************************************
+========================= CLASS #96 =============================
+(1983) {286131} [286202]: Many legacy IDE drivers use ata_bmdma_stop() for the bmdma_stop() hook.
+(1985) {286281} [286355]: Many legacy IDE drivers use ata_bmdma_status() as the bmdma_status() hook.
+*****************************************************************
+========================= CLASS #97 =============================
+(1992) {287103} [287236]: ata_qc_issue_prot() calls -&amp;gt;tf_load(), -&amp;gt;bmdma_setup(), and -&amp;gt;bmdma_start() as necessary to initiate a transfer.
+(2020) {290863} [290921]: -&amp;gt;port_stop() is called after -&amp;gt;host_stop().
+(2023) {291095} [291178]: -&amp;gt;host_stop() is called after all -&amp;gt;port_stop() calls have completed.
+*****************************************************************
+========================= CLASS #98 =============================
+(2003) {288338} [288574]: The primary responsibility of an implementation is to call ata_do_eh() or ata_bmdma_drive_eh() with a set of EH hooks as arguments: &#39;prereset&#39; hook (may be NULL) is called during an EH reset, before any other actions are taken.
+(2004) {288576} [288657]: &#39;postreset&#39; hook (may be NULL) is called after the EH reset is performed.
+*****************************************************************
+========================= CLASS #99 =============================
+(2038) {292630} [292722]: One is via qc-&amp;gt;complete_fn() callback and the other is completion qc-&amp;gt;waiting.
+(2047) {293479} [293549]: qc-&amp;gt;complete_fn() callback is used for completion notification.
+(2074) {295611} [295656]: qc-&amp;gt;complete_fn() callback is invoked.
+*****************************************************************
+========================= CLASS #100 =============================
+(2136) {301482} [301607]: Examples ATA_STATUS doesn&#39;t contain !BSY &amp;amp;&amp;amp; DRDY &amp;amp;&amp;amp; !DRQ while trying to issue a command.
+(2137) {301609} [301663]: !BSY &amp;amp;&amp;amp; !DRQ during PIO data transfer.
+*****************************************************************
+========================= CLASS #101 =============================
+(2148) {302838} [302886]: Those cases are described later in this section.
+(3514) {493671} [493715]: This will be described in the later section.
+*****************************************************************
+========================= CLASS #102 =============================
+(2151) {303190} [303356]: !BSY &amp;amp;&amp;amp; ERR(==CHK) &amp;amp;&amp;amp; !ABRT after the last byte of CDB is transferred indicates CHECK CONDITION and doesn&#39;t fall in this category.
+(2152) {303358} [303534]: !BSY &amp;amp;&amp;amp; ERR(==CHK) &amp;amp;&amp;amp; ABRT after the last byte of CDB is transferred *probably* indicates CHECK CONDITION and doesn&#39;t fall in this category.
+*****************************************************************
+========================= CLASS #103 =============================
+(2204) {309146} [309237]: This type of errors must be logged as it indicates something is very wrong with the system.
+(2208) {309477} [309512]: This type of errors must be logged.
+*****************************************************************
+========================= CLASS #104 =============================
+(2205) {309239} [309280]: Resetting host controller is recommended.
+(2209) {309514} [309555]: Resetting host controller is recommended.
+*****************************************************************
+========================= CLASS #105 =============================
+(2283) {317688} [317751]: The databytes are expanded to the given symbol size on the fly.
+(2293) {318701} [318764]: The databytes are expanded to the given symbol size on the fly.
+*****************************************************************
+========================= CLASS #106 =============================
+(2285) {317846} [317925]: If it is necessary it should be not a big deal to implement such functionality.
+(2295) {318858} [318937]: If it is necessary it should be not a big deal to implement such functionality.
+*****************************************************************
+========================= CLASS #107 =============================
+(2286) {317927} [317944]: /* Parity buffer.
+(2302) {319788} [319805]: /* Parity buffer.
+*****************************************************************
+========================= CLASS #108 =============================
+(2297) {319017} [319172]: Size = number of roots */ uint16_t par[6]; uint8_t data[512]; int numerr; /* Receive data */ ..... /* Receive parity */ ..... /* Decode 512 byte in data8.
+(2299) {319343} [319553]: Size = number of roots */ uint16_t par[6], syn[6]; uint8_t data[512]; int numerr; /* Receive data */ ..... /* Receive parity */ ..... /* Get syndrome from hardware decoder */ ..... /* Decode 512 byte in data8.
+(2303) {319806} [320036]: Size = number of roots */ uint16_t par[6], syn[6], corr[8]; uint8_t data[512]; int numerr, errpos[8]; /* Receive data */ ..... /* Receive parity */ ..... /* Get syndrome from hardware decoder */ ..... /* Decode 512 byte in data8.
+*****************************************************************
+========================= CLASS #109 =============================
+(2298) {319172} [319342]: */ numerr = decode_rs8 (rs_decoder, data8, par, 512, NULL, 0, NULL, 0, NULL); Decoding with syndrome given by hardware decoder, direct data correction /* Parity buffer.
+(2300) {319553} [319707]: */ numerr = decode_rs8 (rs_decoder, data8, par, 512, syn, 0, NULL, 0, NULL); Decoding with syndrome given by hardware decoder, no direct data correction.
+*****************************************************************
+========================= CLASS #110 =============================
+(2333) {324178} [324307]: For process and program execution security information, security fields were added to struct task_struct and struct linux_binprm.
+(2334) {324309} [324395]: For filesystem security information, a security field was added to struct super_block.
+*****************************************************************
+========================= CLASS #111 =============================
+(2392) {333968} [334065]: Each function and struct member has a short description which is marked with an [XXX] identifier.
+(2590) {363646} [363730]: Each struct member has a short description which is marked with an [XXX] identifier.
+(2593) {363933} [364012]: Each function has a short description which is marked with an [XXX] identifier.
+(2596) {364203} [364282]: Each function has a short description which is marked with an [XXX] identifier.
+*****************************************************************
+========================= CLASS #112 =============================
+(2395) {334228} [334289]: The identifiers explain the usage and scope of the functions.
+(2406) {335338} [335397]: The identifiers explain the usage and scope of the members.
+*****************************************************************
+========================= CLASS #113 =============================
+(2397) {334400} [334489]: They are not replacable and provide functionality which is complete hardware independent.
+(2399) {334588} [334700]: [GENERIC] Generic functions are not replacable and provide functionality which is complete hardware independent.
+*****************************************************************
+========================= CLASS #114 =============================
+(2403) {334966} [335086]: The board driver can set the functions which should be replaced by board dependent functions before calling nand_scan().
+(2410) {335738} [335858]: The board driver can set the functions which should be replaced by board dependent functions before calling nand_scan().
+*****************************************************************
+========================= CLASS #115 =============================
+(2404) {335087} [335236]: If the function pointer is NULL on entry to nand_scan() then the pointer is set to the default function which is suitable for the detected chip type.
+(2411) {335859} [336008]: If the function pointer is NULL on entry to nand_scan() then the pointer is set to the default function which is suitable for the detected chip type.
+*****************************************************************
+========================= CLASS #116 =============================
+(2449) {343251} [343326]: NAND_ECC_HW3_256 Hardware ECC generator providing 3 bytes ECC per 256 byte.
+(2450) {343327} [343402]: NAND_ECC_HW3_512 Hardware ECC generator providing 3 bytes ECC per 512 byte.
+(2451) {343403} [343478]: NAND_ECC_HW6_512 Hardware ECC generator providing 6 bytes ECC per 512 byte.
+(2452) {343479} [343554]: NAND_ECC_HW8_512 Hardware ECC generator providing 6 bytes ECC per 512 byte.
+*****************************************************************
+========================= CLASS #117 =============================
+(2453) {343556} [343786]: If your hardware generator has a different functionality add it at the appropriate place in nand_base.c The board driver must provide following functions: enable_hwecc This function is called before reading / writing to the chip.
+(2456) {343949} [344025]: calculate_ecc This function is called after read / write from / to the chip.
+*****************************************************************
+========================= CLASS #118 =============================
+(2552) {354502} [354631]: If the spare area buffer is NULL then only the ECC placement is done according to the given scheme in the nand_oobinfo structure.
+(2556) {354947} [355056]: If the spare area buffer is NULL then only the ECC placement is done according to the default builtin scheme.
+*****************************************************************
+========================= CLASS #119 =============================
+(2558) {355367} [355414]: This applies only to the first page in a block.
+(2560) {355963} [356010]: This applies only to the first page in a block.
+(2562) {356368} [356415]: This applies only to the first page in a block.
+*****************************************************************
+========================= CLASS #120 =============================
+(2576) {359976} [360034]: They are ored together to describe the chip functionality.
+(2579) {360712} [360765]: They are ored together to describe the functionality.
+*****************************************************************
+========================= CLASS #121 =============================
+(2591) {363731} [363798]: See the chapter &quot;Documentation hints&quot; for an explanation.
+(2594) {364013} [364080]: See the chapter &quot;Documentation hints&quot; for an explanation.
+(2597) {364283} [364350]: See the chapter &quot;Documentation hints&quot; for an explanation.
+*****************************************************************
+========================= CLASS #122 =============================
+(2592) {363800} [363932]: Public Functions Provided This chapter contains the autogenerated documentation of the NAND kernel API functions which are exported.
+(2595) {364082} [364202]: Internal Functions Provided This chapter contains the autogenerated documentation of the NAND driver internal functions.
+*****************************************************************
+========================= CLASS #123 =============================
+(2655) {373225} [373301]: This is done at driver registration time as part of the machine constraints.
+(2658) {373697} [373783]: This is done at driver registration time by providing a struct regulation_constraints.
+*****************************************************************
+========================= CLASS #124 =============================
+(2751) {386433} [386706]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(2755) {387410} [387683]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(3010) {415776} [416049]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(4136) {572967} [573240]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+(4210) {586816} [587089]: You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA For more details see the file COPYING in the source distribution of Linux.
+*****************************************************************
+========================= CLASS #125 =============================
+(2791) {392487} [392551]: You can also use select() on /dev/uioX to wait for an interrupt.
+(2987) {411150} [411189]: You can also use select() on /dev/uioX.
+*****************************************************************
+========================= CLASS #126 =============================
+(2827) {395916} [395997]: Drivers can set this to make it easier for userspace to find the correct mapping.
+(2844) {397778} [397859]: Drivers can set it to make it easier for userspace to find a certain port region.
+*****************************************************************
+========================= CLASS #127 =============================
+(2858) {398709} [398747]: See the description below for details.
+(2861) {398934} [398972]: See the description below for details.
+*****************************************************************
+========================= CLASS #128 =============================
+(2871) {399723} [399790]: int (*open)(struct uio_info *info, struct inode *inode) : Optional.
+(2874) {399897} [399967]: int (*release)(struct uio_info *info, struct inode *inode) : Optional.
+*****************************************************************
+========================= CLASS #129 =============================
+(2881) {400490} [400575]: Here&#39;s a description of the fields of struct uio_mem: const char *name: Optional.
+(2903) {402052} [402136]: Here&#39;s a description of the fields of struct uio_port: char *porttype: Required.
+*****************************************************************
+========================= CLASS #130 =============================
+(2893) {401194} [401263]: Note that you must initialize size with zero for all unused mappings.
+(2910) {402468} [402536]: Note that you must initialize size with zero for all unused regions.
+*****************************************************************
+========================= CLASS #131 =============================
+(2899) {401713} [401735]: Simply leave it alone.
+(2913) {402679} [402701]: Simply leave it alone.
+*****************************************************************
+========================= CLASS #132 =============================
+(2933) {405042} [405176]: You now have to set the .name element of struct platform_device to &quot;uio_pdrv&quot; to use the generic UIO platform device driver.
+(2943) {406016} [406123]: You will set the .name element of struct platform_device to &quot;uio_pdrv_genirq&quot; to use this driver.
+(2954) {407218} [407316]: Set the .name element of struct platform_device to &quot;uio_dmem_genirq&quot; to use this driver.
+*****************************************************************
+========================= CLASS #133 =============================
+(2989) {411332} [411431]: It can work with any device compliant to PCI 2.3 (circa 2002) and any compliant PCI Express device.
+(2995) {412961} [413071]: All devices compliant to PCI 2.3 (circa 2002) and all compliant PCI Express devices should support these bits.
+*****************************************************************
+========================= CLASS #134 =============================
+(3001) {413674} [414633]: Example code using uio_pci_generic Here is some sample userspace driver code using uio_pci_generic: #include &amp;lt;stdlib.h&amp;gt; #include &amp;lt;stdio.h&amp;gt; #include &amp;lt;unistd.h&amp;gt; #include &amp;lt;sys/types.h&amp;gt; #include &amp;lt;sys/stat.h&amp;gt; #include &amp;lt;fcntl.h&amp;gt; #include &amp;lt;errno.h&amp;gt; int main() { int uiofd; int configfd; int err; int i; unsigned icount; unsigned char command_high; uiofd = open(&quot;/dev/uio0&quot;, O_RDONLY); if (uiofd &amp;lt; 0) { perror(&quot;uio open:&quot;); return errno; } configfd = open(&quot;/sys/class/uio/uio0/device/config&quot;, O_RDWR); if (configfd &amp;lt; 0) { perror(&quot;config open:&quot;); return errno; } /* Read and cache command value */ err = pread(configfd, &amp;amp;command_high, 1, 5); if (err != 1) { perror(&quot;command config read:&quot;); return errno; } command_high &amp;amp;= ~0x4; for(i = 0;; ++i) { /* Print out a message, for debugging.
+(3005) {414947} [415091]: */ err = pwrite(configfd, &amp;amp;command_high, 1, 5); if (err != 1) { perror(&quot;config write:&quot;); break; } /* Wait for next interrupt.
+*****************************************************************
+========================= CLASS #135 =============================
+(3133) {432050} [432166]: The simple style is to make only control requests; some devices don&#39;t need more complex interactions than those.
+(3192) {439778} [439833]: USBDEVFS_CONTROLIssues a control request to the device.
+*****************************************************************
+========================= CLASS #136 =============================
+(3154) {434762} [434867]: The ioctl parameter is an integer holding the number of the interface (bInterfaceNumber from descriptor).
+(3173) {437366} [437526]: The ioctl parameter is an integer holding the number of the interface (bInterfaceNumber from descriptor); File modification time is not updated by this request.
+(3200) {440834} [440865]: The ioctl parameter is ignored.
+*****************************************************************
+========================= CLASS #137 =============================
+(3157) {435152} [435206]: File modification time is not updated by this request.
+(3202) {440919} [440973]: File modification time is not updated by this request.
+(3211) {441823} [441877]: File modification time is not updated by this request.
+(3227) {444457} [444534]: USBDEVFS_DISCARDURBTBS File modification time is not updated by this request.
+(3228) {444536} [444613]: USBDEVFS_DISCSIGNALTBS File modification time is not updated by this request.
+(3229) {444615} [444689]: USBDEVFS_REAPURBTBS File modification time is not updated by this request.
+(3230) {444691} [444771]: USBDEVFS_REAPURBNDELAYTBS File modification time is not updated by this request.
+*****************************************************************
+========================= CLASS #138 =============================
+(3185) {438622} [439020]: The ioctl parameter is a pointer to this structure: struct usbdevfs_bulktransfer { unsigned int ep; unsigned int len; unsigned int timeout; /* in milliseconds */ void *data; }; The &quot;ep&quot; value identifies a bulk endpoint number (1 to 15, as identified in an endpoint descriptor), masked with USB_DIR_IN when referring to an endpoint which sends data to the host from the device.
+(3189) {439351} [439551]: The ioctl parameter is an integer endpoint number (1 to 15, as identified in an endpoint descriptor), masked with USB_DIR_IN when referring to an endpoint which sends data to the host from the device.
+*****************************************************************
+========================= CLASS #139 =============================
+(3203) {440974} [441120]: Avoid using this call until some usbcore bugs get fixed, since it does not fully synchronize device, interface, and driver (not just usbfs) state.
+(3212) {441878} [442024]: Avoid using this call until some usbcore bugs get fixed, since it does not fully synchronize device, interface, and driver (not just usbfs) state.
+*****************************************************************
+========================= CLASS #140 =============================
+(3231) {444773} [445142]: USBDEVFS_SUBMITURBTBS &lt;!-- vim:syntax=sgml:sw=4 --&gt;&lt;!-- ****************************************************** --&gt;&lt;!-- Header --&gt;&lt;!-- ****************************************************** --&gt;Writing an ALSA DriverTakashiIwaitiwai@suse.deOct 15, 20070.3.7 This document describes how to write an ALSA (Advanced Linux Sound Architecture) driver.
+(3245) {447008} [447250]: &lt;!-- ****************************************************** --&gt;&lt;!-- File Tree Structure --&gt;&lt;!-- ****************************************************** --&gt;File Tree StructureGeneral The ALSA drivers are provided in two ways.
+(3331) {459637} [459925]: &lt;!-- ****************************************************** --&gt;&lt;!-- Management of Cards and Components --&gt;&lt;!-- ****************************************************** --&gt;Management of Cards and ComponentsCard Instance For each soundcard, a card record must be allocated.
+(4111) {570159} [570427]: &lt;!-- ****************************************************** --&gt;&lt;!-- Useful Functions --&gt;&lt;!-- ****************************************************** --&gt;Useful Functionssnd_printk() and friends ALSA provides a verbose version of the printk() function.
+(4130) {571943} [572222]: &lt;!-- ****************************************************** --&gt;&lt;!-- Acknowledgments --&gt;&lt;!-- ****************************************************** --&gt;Acknowledgments I would like to thank Phil Kerr for his help for improvement and corrections of this document.
+*****************************************************************
+========================= CLASS #141 =============================
+(3280) {450813} [450954]: pci directory This directory and its sub-directories hold the top-level card modules for PCI soundcards and the code specific to the PCI BUS.
+(3283) {451145} [451249]: isa directory This directory and its sub-directories hold the top-level card modules for ISA soundcards.
+*****************************************************************
+========================= CLASS #142 =============================
+(3294) {452727} [455917]: Basic Flow for PCI Drivers - Example #include &amp;lt;linux/init.h&amp;gt; #include &amp;lt;linux/pci.h&amp;gt; #include &amp;lt;linux/slab.h&amp;gt; #include &amp;lt;sound/core.h&amp;gt; #include &amp;lt;sound/initval.h&amp;gt; /* module parameters (see &quot;Module Parameters&quot;) */ /* SNDRV_CARDS: maximum number of cards supported by this module */ static int index[SNDRV_CARDS] = SNDRV_DEFAULT_IDX; static char *id[SNDRV_CARDS] = SNDRV_DEFAULT_STR; static bool enable[SNDRV_CARDS] = SNDRV_DEFAULT_ENABLE_PNP; /* definition of the chip-specific record */ struct mychip { struct snd_card *card; /* the rest of the implementation will be in section * &quot;PCI Resource Management&quot; */ }; /* chip-specific destructor * (see &quot;PCI Resource Management&quot;) */ static int snd_mychip_free(struct mychip *chip) { .... /* will be implemented later... */ } /* component-destructor * (see &quot;Management of Cards and Components&quot;) */ static int snd_mychip_dev_free(struct snd_device *device) { return snd_mychip_free(device-&amp;gt;device_data); } /* chip-specific constructor * (see &quot;Management of Cards and Components&quot;) */ static int snd_mychip_create(struct snd_card *card, struct pci_dev *pci, struct mychip **rchip) { struct mychip *chip; int err; static struct snd_device_ops ops = { .dev_free = snd_mychip_dev_free, }; *rchip = NULL; /* check PCI availability here * (see &quot;PCI Resource Management&quot;) */ .... /* allocate a chip-specific data with zero filled */ chip = kzalloc(sizeof(*chip), GFP_KERNEL); if (chip == NULL) return -ENOMEM; chip-&amp;gt;card = card; /* rest of initialization here; will be implemented * later, see &quot;PCI Resource Management&quot; */ .... err = snd_device_new(card, SNDRV_DEV_LOWLEVEL, chip, &amp;amp;ops); if (err &amp;lt; 0) { snd_mychip_free(chip); return err; } snd_card_set_dev(card, &amp;amp;pci-&amp;gt;dev); *rchip = chip; return 0; } /* constructor -- see &quot;Constructor&quot; sub-section */ static int snd_mychip_probe(struct pci_dev *pci, const struct pci_device_id *pci_id) { static int dev; struct snd_card *card; struct mychip *chip; int err; /* (1) */ if (dev &amp;gt;= SNDRV_CARDS) return -ENODEV; if (!enable[dev]) { dev++; return -ENOENT; } /* (2) */ err = snd_card_create(index[dev], id[dev], THIS_MODULE, 0, &amp;amp;card); if (err &amp;lt; 0) return err; /* (3) */ err = snd_mychip_create(card, pci, &amp;amp;chip); if (err &amp;lt; 0) { snd_card_free(card); return err; } /* (4) */ strcpy(card-&amp;gt;driver, &quot;My Chip&quot;); strcpy(card-&amp;gt;shortname, &quot;My Own Chip 123&quot;); sprintf(card-&amp;gt;longname, &quot;%s at 0x%lx irq %i&quot;, card-&amp;gt;shortname, chip-&amp;gt;ioport, chip-&amp;gt;irq); /* (5) */ .... /* implemented later */ /* (6) */ err = snd_card_register(card); if (err &amp;lt; 0) { snd_card_free(card); return err; } /* (7) */ pci_set_drvdata(pci, card); dev++; return 0; } /* destructor -- see the &quot;Destructor&quot; sub-section */ static void snd_mychip_remove(struct pci_dev *pci) { snd_card_free(pci_get_drvdata(pci)); pci_set_drvdata(pci, NULL); } Constructor The real constructor of PCI drivers is the probe callback.
+(3298) {456200} [456355]: static int dev; .... if (dev &amp;gt;= SNDRV_CARDS) return -ENODEV; if (!enable[dev]) { dev++; return -ENOENT; } where enable[dev] is the module option.
+*****************************************************************
+========================= CLASS #143 =============================
+(3329) {459463} [459575]: The ALSA interfaces like the PCM and control APIs are defined in other &amp;lt;sound/xxx.h&amp;gt; header files.
+(3706) {515430} [515492]: The control API is defined in &amp;lt;sound/control.h&amp;gt;.
+*****************************************************************
+========================= CLASS #144 =============================
+(3380) {464856} [465168]: &lt;!-- ****************************************************** --&gt;&lt;!-- PCI Resource Management --&gt;&lt;!-- ****************************************************** --&gt;PCI Resource ManagementFull Code Example In this section, we&#39;ll complete the chip-specific constructor, destructor and PCI entries.
+(4043) {559377} [559679]: &lt;!-- ****************************************************** --&gt;&lt;!-- Power Management --&gt;&lt;!-- ****************************************************** --&gt;Power Management If the chip is supposed to work with suspend/resume functions, you need to add power-management code to the driver.
+*****************************************************************
+========================= CLASS #145 =============================
+(3382) {465206} [468203]: PCI Resource Management Example struct mychip { struct snd_card *card; struct pci_dev *pci; unsigned long port; int irq; }; static int snd_mychip_free(struct mychip *chip) { /* disable hardware here if any */ .... /* (not implemented in this document) */ /* release the irq */ if (chip-&amp;gt;irq &amp;gt;= 0) free_irq(chip-&amp;gt;irq, chip); /* release the I/O ports &amp;amp; memory */ pci_release_regions(chip-&amp;gt;pci); /* disable the PCI entry */ pci_disable_device(chip-&amp;gt;pci); /* release the data */ kfree(chip); return 0; } /* chip-specific constructor */ static int snd_mychip_create(struct snd_card *card, struct pci_dev *pci, struct mychip **rchip) { struct mychip *chip; int err; static struct snd_device_ops ops = { .dev_free = snd_mychip_dev_free, }; *rchip = NULL; /* initialize the PCI entry */ err = pci_enable_device(pci); if (err &amp;lt; 0) return err; /* check PCI availability (28bit DMA) */ if (pci_set_dma_mask(pci, DMA_BIT_MASK(28)) &amp;lt; 0 || pci_set_consistent_dma_mask(pci, DMA_BIT_MASK(28)) &amp;lt; 0) { printk(KERN_ERR &quot;error to set 28bit mask DMA\n&quot;); pci_disable_device(pci); return -ENXIO; } chip = kzalloc(sizeof(*chip), GFP_KERNEL); if (chip == NULL) { pci_disable_device(pci); return -ENOMEM; } /* initialize the stuff */ chip-&amp;gt;card = card; chip-&amp;gt;pci = pci; chip-&amp;gt;irq = -1; /* (1) PCI resource allocation */ err = pci_request_regions(pci, &quot;My Chip&quot;); if (err &amp;lt; 0) { kfree(chip); pci_disable_device(pci); return err; } chip-&amp;gt;port = pci_resource_start(pci, 0); if (request_irq(pci-&amp;gt;irq, snd_mychip_interrupt, IRQF_SHARED, KBUILD_MODNAME, chip)) { printk(KERN_ERR &quot;cannot grab irq %d\n&quot;, pci-&amp;gt;irq); snd_mychip_free(chip); return -EBUSY; } chip-&amp;gt;irq = pci-&amp;gt;irq; /* (2) initialization of the chip hardware */ .... /* (not implemented in this document) */ err = snd_device_new(card, SNDRV_DEV_LOWLEVEL, chip, &amp;amp;ops); if (err &amp;lt; 0) { snd_mychip_free(chip); return err; } snd_card_set_dev(card, &amp;amp;pci-&amp;gt;dev); *rchip = chip; return 0; } /* PCI IDs */ static struct pci_device_id snd_mychip_ids[] = { { PCI_VENDOR_ID_FOO, PCI_DEVICE_ID_BAR, PCI_ANY_ID, PCI_ANY_ID, 0, 0, 0, }, .... { 0, } }; MODULE_DEVICE_TABLE(pci, snd_mychip_ids); /* pci_driver definition */ static struct pci_driver driver = { .name = KBUILD_MODNAME, .id_table = snd_mychip_ids, .probe = snd_mychip_probe, .remove = snd_mychip_remove, }; /* module initialization */ static int __init alsa_card_mychip_init(void) { return pci_register_driver(&amp;amp;driver); } /* module clean up */ static void __exit alsa_card_mychip_exit(void) { pci_unregister_driver(&amp;amp;driver); } module_init(alsa_card_mychip_init) module_exit(alsa_card_mychip_exit) EXPORT_NO_SYMBOLS; /* for old kernels only */ Some Hafta&#39;s The allocation of PCI resources is done in the probe() function, and usually an extra xxx_create() function is written for this purpose.
+(3386) {468468} [468919]: Suppose the 28bit mask, and the code to be added would be like: err = pci_enable_device(pci); if (err &amp;lt; 0) return err; if (pci_set_dma_mask(pci, DMA_BIT_MASK(28)) &amp;lt; 0 || pci_set_consistent_dma_mask(pci, DMA_BIT_MASK(28)) &amp;lt; 0) { printk(KERN_ERR &quot;error to set 28bit mask DMA\n&quot;); pci_disable_device(pci); return -ENXIO; } Resource Allocation The allocation of I/O ports and irqs is done via standard kernel functions.
+*****************************************************************
+========================= CLASS #146 =============================
+(3447) {476474} [476810]: &lt;!-- ****************************************************** --&gt;&lt;!-- PCM Interface --&gt;&lt;!-- ****************************************************** --&gt;PCM InterfaceGeneral The PCM middle layer of ALSA is quite powerful and it is only necessary for each driver to implement the low-level functions to access its hardware.
+(3700) {514857} [515122]: &lt;!-- ****************************************************** --&gt;&lt;!-- Control Interface --&gt;&lt;!-- ****************************************************** --&gt;Control InterfaceGeneral The control interface is used widely for many switches, sliders, etc.
+(3838) {532245} [532523]: &lt;!-- ****************************************************** --&gt;&lt;!-- MIDI (MPU401-UART) Interface --&gt;&lt;!-- ****************************************************** --&gt;MIDI (MPU401-UART) InterfaceGeneral Many soundcards have built-in MIDI (MPU401-UART) interfaces.
+*****************************************************************
+========================= CLASS #147 =============================
+(3448) {476812} [476898]: For accessing to the PCM layer, you need to include &amp;lt;sound/pcm.h&amp;gt; first.
+(3488) {487564} [487639]: The definition of runtime instance is found in &amp;lt;sound/pcm.h&amp;gt;.
+(4004) {553885} [553936]: The API is provided in &amp;lt;sound/pcm.h&amp;gt;.
+*****************************************************************
+========================= CLASS #148 =============================
+(3462) {478077} [483430]: PCM Example Code #include &amp;lt;sound/pcm.h&amp;gt; .... /* hardware definition */ static struct snd_pcm_hardware snd_mychip_playback_hw = { .info = (SNDRV_PCM_INFO_MMAP | SNDRV_PCM_INFO_INTERLEAVED | SNDRV_PCM_INFO_BLOCK_TRANSFER | SNDRV_PCM_INFO_MMAP_VALID), .formats = SNDRV_PCM_FMTBIT_S16_LE, .rates = SNDRV_PCM_RATE_8000_48000, .rate_min = 8000, .rate_max = 48000, .channels_min = 2, .channels_max = 2, .buffer_bytes_max = 32768, .period_bytes_min = 4096, .period_bytes_max = 32768, .periods_min = 1, .periods_max = 1024, }; /* hardware definition */ static struct snd_pcm_hardware snd_mychip_capture_hw = { .info = (SNDRV_PCM_INFO_MMAP | SNDRV_PCM_INFO_INTERLEAVED | SNDRV_PCM_INFO_BLOCK_TRANSFER | SNDRV_PCM_INFO_MMAP_VALID), .formats = SNDRV_PCM_FMTBIT_S16_LE, .rates = SNDRV_PCM_RATE_8000_48000, .rate_min = 8000, .rate_max = 48000, .channels_min = 2, .channels_max = 2, .buffer_bytes_max = 32768, .period_bytes_min = 4096, .period_bytes_max = 32768, .periods_min = 1, .periods_max = 1024, }; /* open callback */ static int snd_mychip_playback_open(struct snd_pcm_substream *substream) { struct mychip *chip = snd_pcm_substream_chip(substream); struct snd_pcm_runtime *runtime = substream-&amp;gt;runtime; runtime-&amp;gt;hw = snd_mychip_playback_hw; /* more hardware-initialization will be done here */ .... return 0; } /* close callback */ static int snd_mychip_playback_close(struct snd_pcm_substream *substream) { struct mychip *chip = snd_pcm_substream_chip(substream); /* the hardware-specific codes will be here */ .... return 0; } /* open callback */ static int snd_mychip_capture_open(struct snd_pcm_substream *substream) { struct mychip *chip = snd_pcm_substream_chip(substream); struct snd_pcm_runtime *runtime = substream-&amp;gt;runtime; runtime-&amp;gt;hw = snd_mychip_capture_hw; /* more hardware-initialization will be done here */ .... return 0; } /* close callback */ static int snd_mychip_capture_close(struct snd_pcm_substream *substream) { struct mychip *chip = snd_pcm_substream_chip(substream); /* the hardware-specific codes will be here */ .... return 0; } /* hw_params callback */ static int snd_mychip_pcm_hw_params(struct snd_pcm_substream *substream, struct snd_pcm_hw_params *hw_params) { return snd_pcm_lib_malloc_pages(substream, params_buffer_bytes(hw_params)); } /* hw_free callback */ static int snd_mychip_pcm_hw_free(struct snd_pcm_substream *substream) { return snd_pcm_lib_free_pages(substream); } /* prepare callback */ static int snd_mychip_pcm_prepare(struct snd_pcm_substream *substream) { struct mychip *chip = snd_pcm_substream_chip(substream); struct snd_pcm_runtime *runtime = substream-&amp;gt;runtime; /* set up the hardware with the current configuration * for example... */ mychip_set_sample_format(chip, runtime-&amp;gt;format); mychip_set_sample_rate(chip, runtime-&amp;gt;rate); mychip_set_channels(chip, runtime-&amp;gt;channels); mychip_set_dma_setup(chip, runtime-&amp;gt;dma_addr, chip-&amp;gt;buffer_size, chip-&amp;gt;period_size); return 0; } /* trigger callback */ static int snd_mychip_pcm_trigger(struct snd_pcm_substream *substream, int cmd) { switch (cmd) { case SNDRV_PCM_TRIGGER_START: /* do something to start the PCM engine */ .... break; case SNDRV_PCM_TRIGGER_STOP: /* do something to stop the PCM engine */ .... break; default: return -EINVAL; } } /* pointer callback */ static snd_pcm_uframes_t snd_mychip_pcm_pointer(struct snd_pcm_substream *substream) { struct mychip *chip = snd_pcm_substream_chip(substream); unsigned int current_ptr; /* get the current hardware pointer */ current_ptr = mychip_get_hw_pointer(chip); return current_ptr; } /* operators */ static struct snd_pcm_ops snd_mychip_playback_ops = { .open = snd_mychip_playback_open, .close = snd_mychip_playback_close, .ioctl = snd_pcm_lib_ioctl, .hw_params = snd_mychip_pcm_hw_params, .hw_free = snd_mychip_pcm_hw_free, .prepare = snd_mychip_pcm_prepare, .trigger = snd_mychip_pcm_trigger, .pointer = snd_mychip_pcm_pointer, }; /* operators */ static struct snd_pcm_ops snd_mychip_capture_ops = { .open = snd_mychip_capture_open, .close = snd_mychip_capture_close, .ioctl = snd_pcm_lib_ioctl, .hw_params = snd_mychip_pcm_hw_params, .hw_free = snd_mychip_pcm_hw_free, .prepare = snd_mychip_pcm_prepare, .trigger = snd_mychip_pcm_trigger, .pointer = snd_mychip_pcm_pointer, }; /* * definitions of capture are omitted here... */ /* create a pcm device */ static int snd_mychip_new_pcm(struct mychip *chip) { struct snd_pcm *pcm; int err; err = snd_pcm_new(chip-&amp;gt;card, &quot;My Chip&quot;, 0, 1, 1, &amp;amp;pcm); if (err &amp;lt; 0) return err; pcm-&amp;gt;private_data = chip; strcpy(pcm-&amp;gt;name, &quot;My Chip&quot;); chip-&amp;gt;pcm = pcm; /* set operators */ snd_pcm_set_ops(pcm, SNDRV_PCM_STREAM_PLAYBACK, &amp;amp;snd_mychip_playback_ops); snd_pcm_set_ops(pcm, SNDRV_PCM_STREAM_CAPTURE, &amp;amp;snd_mychip_capture_ops); /* pre-allocation of buffers */ /* NOTE: this may fail */ snd_pcm_lib_preallocate_pages_for_all(pcm, SNDRV_DMA_TYPE_DEV, snd_dma_pci_data(chip-&amp;gt;pci), 64*1024, 64*1024); return 0; } Constructor A pcm instance is allocated by the snd_pcm_new() function.
+(3463) {483431} [483863]: It would be better to create a constructor for pcm, namely, static int snd_mychip_new_pcm(struct mychip *chip) { struct snd_pcm *pcm; int err; err = snd_pcm_new(chip-&amp;gt;card, &quot;My Chip&quot;, 0, 1, 1, &amp;amp;pcm); if (err &amp;lt; 0) return err; pcm-&amp;gt;private_data = chip; strcpy(pcm-&amp;gt;name, &quot;My Chip&quot;); chip-&amp;gt;pcm = pcm; .... return 0; } The snd_pcm_new() function takes four arguments.
+*****************************************************************
+========================= CLASS #149 =============================
+(3465) {483968} [484040]: The third argument (index, 0 in the above) is the index of this new pcm.
+(3877) {537034} [537084]: The third argument is the index of this component.
+*****************************************************************
+========================= CLASS #150 =============================
+(3478) {485835} [485929]: Buffer management details will be described in the later section Buffer and Memory Management.
+(3649) {506593} [506674]: The detailed will be described in the later section Buffer and Memory Management.
+(3657) {507142} [507229]: Some examples will be explained in the later section Buffer and Memory Management, too.
+*****************************************************************
+========================= CLASS #151 =============================
+(3480) {486020} [486170]: The available values are defined as SNDRV_PCM_INFO_XXX in &amp;lt;sound/asound.h&amp;gt;, which is used for the hardware definition (described later).
+(3499) {492288} [492370]: The bit flags are defined in &amp;lt;sound/asound.h&amp;gt; as SNDRV_PCM_INFO_XXX.
+*****************************************************************
+========================= CLASS #152 =============================
+(3511) {493365} [493406]: See Power Management section for details.
+(3633) {505121} [505166]: See the Power Management section for details.
+*****************************************************************
+========================= CLASS #153 =============================
+(3590) {500552} [500690]: close callback static int snd_xxx_close(struct snd_pcm_substream *substream); Obviously, this is called when a pcm substream is closed.
+(3887) {539259} [539354]: close callback static int snd_xxx_close(struct snd_rawmidi_substream *substream); Guess what.
+*****************************************************************
+========================= CLASS #154 =============================
+(3600) {501796} [501881]: Note that this and prepare callbacks may be called multiple times per initialization.
+(3611) {502848} [502901]: Also, the callback may be called multiple times, too.
+*****************************************************************
+========================= CLASS #155 =============================
+(3605) {502211} [502274]: Another note is that this callback is non-atomic (schedulable).
+(3618) {503300} [503342]: Note that this callback is now non-atomic.
+*****************************************************************
+========================= CLASS #156 =============================
+(3654) {506986} [507030]: page callback This callback is optional too.
+(3901) {542077} [542103]: This callback is optional.
+*****************************************************************
+========================= CLASS #157 =============================
+(3668) {508403} [509081]: Typical code would be like: Interrupt Handler Case #1 static irqreturn_t snd_mychip_interrupt(int irq, void *dev_id) { struct mychip *chip = dev_id; spin_lock(&amp;amp;chip-&amp;gt;lock); .... if (pcm_irq_invoked(chip)) { /* call updater, unlock before it */ spin_unlock(&amp;amp;chip-&amp;gt;lock); snd_pcm_period_elapsed(chip-&amp;gt;substream); spin_lock(&amp;amp;chip-&amp;gt;lock); /* acknowledge the interrupt if necessary */ } .... spin_unlock(&amp;amp;chip-&amp;gt;lock); return IRQ_HANDLED; } High frequency timer interrupts This happens when the hardware doesn&#39;t generate interrupts at the period boundary but issues timer interrupts at a fixed timer rate (e.g.
+(3672) {509343} [509384]: Typical code would be like the following.
+*****************************************************************
+========================= CLASS #158 =============================
+(3791) {525819} [525881]: The first parameter is the name of the variable to be defined.
+(3796) {526218} [526280]: The first parameter is the name of the variable to be defined.
+*****************************************************************
+========================= CLASS #159 =============================
+(3792) {525882} [525945]: The second parameter is the minimum value, in units of 0.01 dB.
+(3797) {526281} [526344]: The second parameter is the minimum value, in units of 0.01 dB.
+*****************************************************************
+========================= CLASS #160 =============================
+(3803) {526914} [528024]: Full Code ExampleExample of AC97 Interface struct mychip { .... struct snd_ac97 *ac97; .... }; static unsigned short snd_mychip_ac97_read(struct snd_ac97 *ac97, unsigned short reg) { struct mychip *chip = ac97-&amp;gt;private_data; .... /* read a register value here from the codec */ return the_register_value; } static void snd_mychip_ac97_write(struct snd_ac97 *ac97, unsigned short reg, unsigned short val) { struct mychip *chip = ac97-&amp;gt;private_data; .... /* write the given register value to the codec */ } static int snd_mychip_ac97(struct mychip *chip) { struct snd_ac97_bus *bus; struct snd_ac97_template ac97; int err; static struct snd_ac97_bus_ops ops = { .write = snd_mychip_ac97_write, .read = snd_mychip_ac97_read, }; err = snd_ac97_bus(chip-&amp;gt;card, 0, &amp;amp;ops, NULL, &amp;amp;bus); if (err &amp;lt; 0) return err; memset(&amp;amp;ac97, 0, sizeof(ac97)); ac97.private_data = chip; return snd_ac97_mixer(bus, &amp;amp;ac97, &amp;amp;chip-&amp;gt;ac97); } Constructor To create an ac97 instance, first call snd_ac97_bus with an ac97_bus_ops_t record with callback functions.
+(3804) {528027} [528279]: struct snd_ac97_bus *bus; static struct snd_ac97_bus_ops ops = { .write = snd_mychip_ac97_write, .read = snd_mychip_ac97_read, }; snd_ac97_bus(card, 0, &amp;amp;ops, NULL, &amp;amp;pbus); The bus record is shared among all belonging ac97 instances.
+*****************************************************************
+========================= CLASS #161 =============================
+(3845) {533115} [533154]: You can create up to 8 rawmidi devices.
+(3878) {537086} [537125]: You can create up to 8 rawmidi devices.
+*****************************************************************
+========================= CLASS #162 =============================
+(3972) {550055} [550127]: You need to define the copy and silence callbacks for the data transfer.
+(3980) {550727} [550813]: Thus you need to define the copy and silence callbacks as well, as in the cases above.
+*****************************************************************
+========================= CLASS #163 =============================
+(4073) {564067} [564494]: static int snd_mychip_probe(struct pci_dev *pci, const struct pci_device_id *pci_id) { .... struct snd_card *card; struct mychip *chip; int err; .... err = snd_card_create(index[dev], id[dev], THIS_MODULE, 0, &amp;amp;card); .... chip = kzalloc(sizeof(*chip), GFP_KERNEL); .... card-&amp;gt;private_data = chip; .... } When you created the chip data with snd_card_create(), it&#39;s anyway accessible via private_data field.
+(4074) {564497} [564950]: static int snd_mychip_probe(struct pci_dev *pci, const struct pci_device_id *pci_id) { .... struct snd_card *card; struct mychip *chip; int err; .... err = snd_card_create(index[dev], id[dev], THIS_MODULE, sizeof(struct mychip), &amp;amp;card); .... chip = card-&amp;gt;private_data; .... } If you need a space to save the registers, allocate the buffer for it here, too, since it would be fatal if you cannot allocate a memory in the suspend phase.
+*****************************************************************
+========================= CLASS #164 =============================
+(4106) {569358} [569448]: Run cvscompile script to re-generate the configure script and build the whole stuff again.
+(4110) {570067} [570157]: Run cvscompile script to re-generate the configure script and build the whole stuff again.
+*****************************************************************
+========================= CLASS #165 =============================
+(4261) {591260} [591330]: If the checks fail to pass the function returns a non zero error code.
+(4319) {596337} [596383]: This returns a non zero error code on failure.
+*****************************************************************
+========================= CLASS #166 =============================
+(4306) {595380} [595429]: On a failure a non zero error status is returned.
+(4313) {595893} [595939]: On failure a non zero error value is returned.
+*****************************************************************

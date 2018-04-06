@@ -9,7 +9,7 @@ from nltk.util import trigrams  # skipgrams(_, n, k); n - deg, k - skip dist
 import re
 
 # This can be varied
-language = 'russian'.lower()
+language = 'english'.lower()
 removeStops = True  # `= set()` for not removing stopwords
 puncts = set('.,!?():;"[]{}/')
 default_encodings = ["utf-8", "cp1251"]
@@ -60,10 +60,11 @@ class Sentence:
         self.end = end
 
     def sentToWords(self) -> List[str]:
-        return wordsToStemmed(
-            remove_stops(
-                remove_puncts(
-                    word_tokenize(self.sent))))
+        return word_tokenize(self.sent)
+        # return wordsToStemmed(
+        #     remove_stops(
+        #         remove_puncts(
+        #             word_tokenize(self.sent))))
 
 
 class Text:
