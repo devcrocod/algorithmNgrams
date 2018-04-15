@@ -3,13 +3,12 @@ from typing import Iterator, List, Set
 from nltk.tokenize import sent_tokenize as nltk_sent_tokenize
 from nltk.corpus import stopwords
 from nltk import word_tokenize as nltk_word_tokenize
-from nltk import WordNetLemmatizer
 from nltk.util import trigrams  # skipgrams(_, n, k); n - deg, k - skip dist
 
 import re
 
 # This can be varied
-language = 'english'.lower()
+language = 'russian'.lower()
 removeStops = True  # `= set()` for not removing stopwords
 puncts = set('.,!?():;"[]{}/')
 default_encodings = ["utf-8", "cp1251"]
@@ -19,9 +18,9 @@ sent_tokenize = lambda text: nltk_sent_tokenize(text, language)
 word_tokenize = lambda text: nltk_word_tokenize(text, language)
 stopwords = set(stopwords.words(language)) if removeStops else set()
 if language == 'russian':
-    from nltk.stem.snowball import RussianStemmer as Stemmer
+    from pymystem3 import Mystem as Normalize
 else:
-    from nltk.stem.snowball import EnglishStemmer as Stemmer
+    from nltk.stem.snowball import EnglishStemmer as Normalize
 
 
 # Remove unnecessary tokens
@@ -39,17 +38,16 @@ def remove_stops(seq: Iterator[str]) -> Iterator[str]:
 
 
 def wordsToStemmed(sent: Iterator[str]) -> List[str]:
-    return [Sentence.stemmer.stem(word) for word in sent]
+    return [Sentence.normalize.stem(word) for word in sent]
 
 
 def wordsToLemmed(sent: Iterator[str]) -> List[str]:
-    return [Sentence.lemmater.lemmatize(word) for word in sent]
+    return [Sentence.normalize.lemmatize(word) for word in sent]
 
 
 # Kernel classes
 class Sentence:
-    stemmer = Stemmer()
-    lemmater = WordNetLemmatizer()
+    normalize = Normalize()
 
     def __init__(self, index: int, sent: str, start: int, end: int):
         self.index = index
@@ -60,10 +58,16 @@ class Sentence:
         self.end = end
 
     def sentToWords(self) -> List[str]:
-        return wordsToStemmed(
-            remove_stops(
-                remove_puncts(
-                    word_tokenize(self.sent))))
+        if language == 'russian':
+            return wordsToLemmed(
+                remove_stops(
+                    remove_puncts(
+                        word_tokenize(self.sent))))
+        else:
+            return wordsToStemmed(
+                remove_stops(
+                    remove_puncts(
+                        word_tokenize(self.sent))))
 
 
 class Text:

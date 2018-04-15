@@ -19,7 +19,7 @@ def compareSentWithClass(curClass, curSent):
     return avgOverlap
 
 
-name = "DocBook_Definitive_Guide.pxml"
+name = ""
 
 text = Text("resources/" + name)
 sents = text.sents
@@ -44,7 +44,7 @@ for curSent in sents:
         classes[bestClass].sents.append(curSent)
 
 cur = 0
-with open(name + "result.txt", "w", encoding=text.encoding) as file:
+with open(name + " result.txt", "w", encoding=text.encoding) as file:
     for curClass in classes:
         if len(curClass.sents) == 1:
             continue
