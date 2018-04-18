@@ -8,15 +8,14 @@ from nltk.util import trigrams  # skipgrams(_, n, k); n - deg, k - skip dist
 import re
 
 # This can be varied
-language = 'russian'.lower()
-removeStops = True  # `= set()` for not removing stopwords
+language = 'english'.lower()
 puncts = set('.,!?():;"[]{}/')
 default_encodings = ["utf-8", "cp1251"]
 
 # language dispatch
 sent_tokenize = lambda text: nltk_sent_tokenize(text, language)
 word_tokenize = lambda text: nltk_word_tokenize(text, language)
-stopwords = set(stopwords.words(language)) if removeStops else set()
+stopwords = set(stopwords.words(language))
 if language == 'russian':
     from pymystem3 import Mystem as Normalize
 else:
