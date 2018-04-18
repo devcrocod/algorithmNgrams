@@ -8,8 +8,11 @@ from nltk.util import trigrams  # skipgrams(_, n, k); n - deg, k - skip dist
 import re
 
 # This can be varied
+# english/russian
 language = 'english'.lower()
+# Punctuation
 puncts = set('.,!?():;"[]{}/')
+# Encodings
 default_encodings = ["utf-8", "cp1251"]
 
 # language dispatch
