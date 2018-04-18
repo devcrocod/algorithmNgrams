@@ -1,5 +1,2 @@
-# idea
-.idea
-
-# resources
-resources
+/resources/
+/.idea/
