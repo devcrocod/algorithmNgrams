@@ -161,6 +161,7 @@ venv.bak/
 
 # IntelliJ project files
 .idea
+.idea/vcs.xml
 *.iml
 out
 gen
