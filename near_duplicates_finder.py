@@ -1,3 +1,4 @@
+from simpleAPI2 import Data_settings
 from simpleAPI2 import Text
 
 
@@ -21,8 +22,8 @@ def compareSentWithClass(curClass, curSent):
 
 def ndf(name_file: str):
     name = name_file
-
-    text = Text("resources/" + name)
+    settings = Data_settings("english")
+    text = Text("resources/" + name, settings)
     sents = text.sents
     classes = []
 
